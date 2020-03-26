@@ -3,6 +3,9 @@ a {
     color: #ff9300 !important;
 }
 
+h1 {
+    padding-top: 5rem;
+}
 
 body {
     display: block;
