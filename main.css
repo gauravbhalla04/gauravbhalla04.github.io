@@ -365,6 +365,7 @@ a:hover {
 
     #logo {
         width: 5rem;
+        top: 0.5rem;
     }
 
 
@@ -437,8 +438,8 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.5rem;
-        left: 40%;
+        top: 0.8rem;
+        left: 43%;
 
         transform: translate(-50%, -50%);
 
@@ -452,8 +453,8 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.5rem;
-        left: 50%;
+        top: 0.8rem;
+        left: 60%;
 
         transform: translate(-50%, -50%);
 
@@ -467,8 +468,8 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.5rem;
-        left: 60%;
+        top: 0.8rem;
+        left: 70%;
 
         transform: translate(-50%, -50%);
 
@@ -482,8 +483,8 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.5rem;
-        left: 70%;
+        top: 0.8rem;
+        left: 78%;
 
         transform: translate(-50%, -50%);
 
@@ -499,7 +500,7 @@ a:hover {
     }
 
     .socialsOne {
-
+        font-size: 0.5rem;
         grid-column: menu-start/menu-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -515,6 +516,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsTwo {
+        font-size: 0.5rem;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
@@ -530,6 +532,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsThree {
+        font-size: 0.5rem;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
