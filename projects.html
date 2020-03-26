@@ -15,12 +15,21 @@
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
 
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+
 
 
         <link rel="stylesheet" href="main.css">
 
+
+
     </head>
+
     <body>
+
+
 
         <div id="navbar">
 
@@ -72,53 +81,117 @@
         </div>
 
 
-        <section class="section">
+
+        <section id="intro">
+
+            <p class="title"> Projects </p>
+            <p>
+
+                This is a page for all my projects, it includes a link to the projects online,
+                a download link, and a brief documentation about the project. I hope you find this interesting,
+                and are able to get something useful from this page.
+
+            </p>
+
+            <p>
+
+                As of 26/3/2020, all my projects on this website are made in JavaScript using the p5js library,
+                this is because these are the most easily shared projects due to their compatibility with websites.
+                I'm working on a solution to display my other projects in python - the other main language that I
+                work with.
+
+            </p>
+
+            <p>
+
+                In addition to the four original projects being displayed here, I'm working on writing up the
+                documentation for each and uploading it, I will be uploading them all together, not one by one.
+                I aim to get these proposals fullfilled by the end of 2020, and once my plans have been completed,
+                I'm sure I will have more ideas to display on this page as well as more improvements that can be
+                made to the original projects.
+
+            </p>
+            <p>
+
+                To run a project on your own computer, you can use the previously mentioned download links
+                and run a localhost server on your computer to view them, or feel free to use an online
+                IDE like the p5js editor. If you happen to stumble across a service that offers support for
+                embedded python projects, please let me know via one of the social media platforms listed in the
+                navbar.
+
+            </p>
 
 
-            <table>
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/snakegame/game.html"><img class="projectThumbnail" src="images/snake.png"></a></td>
-                    <td class="projectCaption"><p> A simple snake game, the same one as I used on the homepage </p></td>
-                    <td class="download"><a download href="downloads/snakegame.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+        </section>
 
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/clock/game.html"><img class="projectThumbnail" src="images/clock.png"></a></td>
-                    <td class="projectCaption"><p> A clock that I made using the p5js built in time and map functions </p></td>
-                    <td class="download"><a download href="downloads/clock.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+                <table class="project">
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/raycasting2d/game.html"><img class="projectThumbnail" src="images/raycasting2d.png"></a></td>
-                    <td class="projectCaption"><p> A dot (that you control) has a certain degree of vision (that you control) and then
-                                                    that is rendered on the right side of the screen</p></td>
-                    <td class="download"><a download href="downloads/raycasting2d.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/snakegame/game.html"><img class="projectThumbnail" src="images/snake.png"></a></td>
+                        <td class="projectCaption"><p> A simple snake game, the same one as I used on the homepage </p></td>
+                        <td class="download"><a download href="downloads/snakegame.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/fractal%20tree/game.html"><img class="projectThumbnail" src="images/fractal.png"></a></td>
-                    <td class="projectCaption"><p> A fractal tree, you can control the angle using the slider </p></td>
-                    <td class="download"><a download href="downloads/fractal%20tree.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
 
-                  <tr class="spacer" style="width: 100%; height: 5rem"></tr>
+              </table>
+
+              <table class="project">
+
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/clock/game.html"><img class="projectThumbnail" src="images/clock.png"></a></td>
+                        <td class="projectCaption"><p> A clock that I made using the p5js built in time and map functions </p></td>
+                        <td class="download"><a download href="downloads/clock.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
 
             </table>
 
 
+            <table class="project">
 
 
-        </section>
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/raycasting2d/game.html"><img class="projectThumbnail" src="images/raycasting2d.png"></a></td>
+                        <td class="projectCaption"><p> A dot (that you control) has a certain degree of vision (that you control) and then
+                                                        that is rendered on the right side of the screen</p></td>
+                        <td class="download"><a download href="downloads/raycasting2d.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
+
+
+
+              </table>
+
+
+              <table class="project">
+
+
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/fractal%20tree/game.html"><img class="projectThumbnail" src="images/fractal.png"></a></td>
+                        <td class="projectCaption"><p> A fractal tree, you can control the angle using the slider </p></td>
+                        <td class="download"><a download href="downloads/fractal%20tree.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
+
+
+                      <tr class="spacer" style="width: 100%; height: 5rem"></tr>
+
+                </table>
+
+
+
+
+
+
+
 
         <footer id="projects" style="padding: 1rem; bottom: 0 !important;">
 
             <p id='footerText'> You can find the source code for all of these projects on my github, and on a computer there are download links </p>
 
         </footer>
-
-
-
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true });
+            ScrollReveal().reveal('.project')
+        </script>
     </body>
 
 
