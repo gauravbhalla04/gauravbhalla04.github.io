@@ -173,7 +173,7 @@ class Snake {
   }
   
   snakeController() {
-    snakeDirection = random(0, 4);
+    var snakeDirection = random(0, 4);
     if (snakeDirection == 0) {
       this.dir(0, -1);
     } else if (snakeDirection == 1) {
