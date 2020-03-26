@@ -54,7 +54,7 @@ function draw() {
       strokeWeight(2);
       noFill();
       noStroke();
-      fill(255, 93, 0);
+      fill(157, 190, 238);
       rect(food.x, food.y, scl, scl);
 
       if (snake.eat(food)) {
@@ -160,7 +160,7 @@ class Snake {
   }
 
   show() {
-    fill(255, 93, 0);
+    fill(157, 190, 238);
     noStroke();
 
     for (var i = 0; i < this.tail.length - 1; i++) {
