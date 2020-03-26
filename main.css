@@ -34,7 +34,6 @@ footer {
   right: 0;
   padding-right: 5rem;
   padding-left: 5rem;
-  padding-top: 5rem;
   bottom: 5%;
   background-color: #24292E;
 }
@@ -56,10 +55,11 @@ a:hover {
     width: 21%;
 }
 
-#logoThinkode {
-    width: 21%;
+#intro {
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-bottom: 5rem;
 }
-
 
 #navbar{
     margin: 0px;
@@ -262,7 +262,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1200px){
-    /*For tablet only*/
+    /*For Mobile only*/
 
     a{
         font-size: 0.7rem;
@@ -329,7 +329,6 @@ a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
-    /*For mobile only*/
 
     a {
         text-decoration: none !important;
@@ -381,13 +380,7 @@ a:hover {
 
     #logo {
         width: 5rem !important;
-        top: 0.7rem !important;
-        left: 0.075rem !important;
-
-    }
-     #logoThinkode {
-        width: 5rem !important;
-        top: 0.1rem !important;
+        padding-top: 0.3rem !important;
         left: 0.075rem !important;
 
     }
@@ -411,6 +404,10 @@ a:hover {
 
     #footerText {
         color: #ffffff;
+    }
+
+    #intro {
+        padding: 1rem;
     }
 
     #projects {
@@ -575,7 +572,7 @@ a:hover {
 
 
     .projectThumbnail {
-        width: 8rem;
+        width: 5rem;
         margin-top: 2rem;
     }
 
