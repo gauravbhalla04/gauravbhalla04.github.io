@@ -3,12 +3,10 @@ a {
     color: #ff9300 !important;
 }
 
-html {
-    overflow-y: hidden !important;
-}
 
 body {
     display: block;
+    overflow-x: hidden !important;
     max-width: 100vw;
     background: #141414;
     margin: 0px;
