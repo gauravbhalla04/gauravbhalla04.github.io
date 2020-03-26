@@ -154,9 +154,17 @@
 
         <footer id="about" style="right: 0; left: 0; min-width: 100vw !important; max-width: 100vw !important; padding-left: 5rem; padding-bottom: 1rem;bottom: 0 !important">
 
-            <p id='footerText'> Gaurav Bhalla </p>
+            <p id='footerText'> Click anywhere to play snake! </p>
 
         </footer>
+
+        <script type="text/javascript">
+            window.onscroll = function() {changeText()};
+            function changeText() {
+                document.getElementById("footerText").innerHTML = "Gaurav Bhalla";
+            }
+
+        </script>
 
     </body>
 </html>
