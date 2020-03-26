@@ -228,7 +228,7 @@ a:hover {
     margin-left: 0;
     padding-top: 3rem;
 }
-/*
+
 @media screen and (max-width: 1200px){
     /*For Mobile only*/
 
@@ -343,11 +343,11 @@ a:hover {
     }
 }
 
-@@media screen and screen(max-width: 600px) {
+@media screen and screen(max-width: 600px) {
 
     .download {
         display:none;
     }
 
 }
-*/
+
