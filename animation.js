@@ -16,7 +16,7 @@ function setup() {
   pickLocation();
   frameRate(10);
 }
-/*
+
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     snake.dir(0, -1);
@@ -28,7 +28,7 @@ function keyPressed() {
     snake.dir(-1, 0);
   }
 }
-*/
+
 function draw() {
 
   var width = windowWidth;
@@ -36,7 +36,6 @@ function draw() {
 
   if (dead == false) {
     
-      snake.snakeController();
 
       if (width  <= bgWidth) {
 
@@ -67,6 +66,7 @@ function draw() {
       snake.show();
   }
   else if (dead == true) {
+    /*
       if (width > 1200) {
         sizetext = 235;
         textSize(sizetext);
@@ -79,7 +79,7 @@ function draw() {
       }
       text('GAME', width/2 - (sizetext * 1.4), height/2 - 110);
       text('OVER', width/2 - (sizetext * 1.4), height/2 + 110);
-
+    */
       if (second() - startSecond < 1) {
           dead = true;
       } else {
@@ -172,17 +172,6 @@ class Snake {
     rect(this.x, this.y, scl, scl);
   }
   
-  snakeController() {
-    var snakeDirection = floor(random(0, 4));
-    if (snakeDirection == 0) {
-      this.dir(0, -1);
-    } else if (snakeDirection == 1) {
-      this.dir(1, 0);
-    } else if (snakeDirection == 2) {
-      this.dir(0, 1);
-    } else if (snakeDirection == 3) {
-      this.dir(-1, 0);
-    }
   }
 
 }
