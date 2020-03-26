@@ -396,7 +396,7 @@ a:hover {
         width: 100vw;
         height: 2.5rem;
         bottom: 0;
-        padding-top: 1rem;
+        padding-top: 1.3rem;
     }
 
     #about {
@@ -469,7 +469,7 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.8rem;
+        top: 1rem;
         left: 67%;
 
         transform: translate(-50%, -50%);
@@ -484,7 +484,7 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.8rem;
+        top: 1rem;
         left: 80%;
 
         transform: translate(-50%, -50%);
@@ -501,7 +501,7 @@ a:hover {
     }
 
     .socialsOne {
-        font-size: 0.3rem;
+        font-size: 0.3rem !important;
         grid-column: menu-start/menu-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -517,7 +517,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsTwo {
-        font-size: 0.3rem;
+        font-size: 0.3rem !important;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
@@ -533,7 +533,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsThree {
-        font-size: 0.3rem;
+        font-size: 0.3rem !important;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
