@@ -50,7 +50,7 @@ function draw() {
       stroke(255, 93, 0);
       strokeWeight(2);
       noFill();
-      rect(3, 0, width - 3, height - 148);
+      rect(0, 0, width - 3, height - 148);
       noStroke();
       fill(255, 93, 0);
       rect(food.x, food.y, scl, scl);
