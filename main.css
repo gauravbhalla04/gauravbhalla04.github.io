@@ -97,8 +97,8 @@ a:hover {
 }
 
 .linkInText {
-    color: #000000;
-    font-size: 0.8rem;
+    color: #000000 !important;
+    font-size: 1rem !important;
 }
 
 
