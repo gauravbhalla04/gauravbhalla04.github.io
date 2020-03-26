@@ -257,7 +257,7 @@ a:hover {
 }
 
 @media screen and (max-width: 1200px){
-    /*For Mobile only*/
+    /*For tablet only*/
 
     a{
         font-size: 0.7rem;
@@ -324,6 +324,7 @@ a:hover {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    /*For mobile only*/
 
     a {
         text-decoration: none !important;
@@ -375,13 +376,13 @@ a:hover {
 
     #logo {
         width: 5rem !important;
-        top: 0.5rem !important;
+        top: 0.7rem !important;
         left: 0.075rem !important;
 
     }
      #logoThinkode {
         width: 5rem !important;
-        top: 0.2rem !important;
+        top: 0.1rem !important;
         left: 0.075rem !important;
 
     }
