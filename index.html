@@ -105,65 +105,73 @@
         </div>
                                  
        <div class="spacer"></div>
-       <div class="spacer"></div>
-       <div class="spacer"></div>
-       <div class="spacer"></div>
                                  
-        <section class="section">
+        <table class="project">
 
-                                
-            <p class="title">Projects</p>
-
-            <table>
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/snakegame/game.html"><img class="projectThumbnail" src="images/snake.png"></a></td>
-                    <td class="projectCaption"><p> A simple snake game, the same one as I used on the homepage </p></td>
-                    <td class="download"><a download href="downloads/snakegame.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/snakegame/game.html"><img class="projectThumbnail" src="images/snake.png"></a></td>
+                        <td class="projectCaption"><p> A simple snake game, the same one as I used on the homepage </p></td>
+                        <td class="download"><a download href="downloads/snakegame.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
 
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/clock/game.html"><img class="projectThumbnail" src="images/clock.png"></a></td>
-                    <td class="projectCaption"><p> A clock that I made using the p5js built in time and map functions </p></td>
-                    <td class="download"><a download href="downloads/clock.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+              </table>
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/raycasting2d/game.html"><img class="projectThumbnail" src="images/raycasting2d.png"></a></td>
-                    <td class="projectCaption"><p> A dot (that you control) has a certain degree of vision (that you control) and then
-                                                    that is rendered on the right side of the screen</p></td>
-                    <td class="download"><a download href="downloads/raycasting2d.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
+              <table class="project">
 
-                  <tr>
-                    <td class="imageHolder"><a target="_blank" href="projects/fractal%20tree/game.html"><img class="projectThumbnail" src="images/fractal.png"></a></td>
-                    <td class="projectCaption"><p> A fractal tree, you can control the angle using the slider </p></td>
-                    <td class="download"><a download href="downloads/fractal%20tree.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
-                  </tr>
-
-                  <tr class="spacer" style="width: 100%; height: 5rem"></tr>
-                  <tr class="spacer" style="width: 100%; height: 5rem"></tr>
-                  <tr class="spacer" style="width: 100%; height: 5rem"></tr>
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/clock/game.html"><img class="projectThumbnail" src="images/clock.png"></a></td>
+                        <td class="projectCaption"><p> A clock that I made using the p5js built in time and map functions </p></td>
+                        <td class="download"><a download href="downloads/clock.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
 
             </table>
 
 
-        </section>
-                                                                      
-                                                                      
+            <table class="project">
 
-        <footer id="about" style="right: 0; left: 0; min-width: 100vw !important; max-width: 100vw !important; padding-left: 5rem; padding-bottom: 1rem;bottom: 0 !important">
 
-            <p id='footerText'> Click anywhere to play snake! </p>
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/raycasting2d/game.html"><img class="projectThumbnail" src="images/raycasting2d.png"></a></td>
+                        <td class="projectCaption"><p> A dot (that you control) has a certain degree of vision (that you control) and then
+                                                        that is rendered on the right side of the screen</p></td>
+                        <td class="download"><a download href="downloads/raycasting2d.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
+
+
+
+              </table>
+
+
+              <table class="project">
+
+
+                      <tr>
+                        <td class="imageHolder"><a target="_blank" href="projects/fractal%20tree/game.html"><img class="projectThumbnail" src="images/fractal.png"></a></td>
+                        <td class="projectCaption"><p> A fractal tree, you can control the angle using the slider </p></td>
+                        <td class="download"><a download href="downloads/fractal%20tree.zip"><i class="fas fa-download" style="color:black; font-size: 2rem"></i></a></td>
+                      </tr>
+
+
+                      <tr class="spacer" style="width: 100%; height: 5rem"></tr>
+
+                </table>
+
+
+
+
+
+
+
+
+        <footer id="projects" style="padding: 1rem; bottom: 0 !important;">
+
+            <p id='footerText'> You can find the source code for all of these projects on my github, and on a computer there are download links </p>
 
         </footer>
-
-        <script type="text/javascript">
-            window.onscroll = function() {changeText()};
-            function changeText() {
-                document.getElementById("footerText").innerHTML = "Gaurav Bhalla";
-            }
-
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ reset: true, delay: 500, duration: 1200 });
+            ScrollReveal().reveal('.project')
         </script>
 
     </body>
