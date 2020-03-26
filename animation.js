@@ -48,7 +48,7 @@ function draw() {
       }
       cnv.style('display', 'block');
       cnv.style('z-index', '-1');
-      cnv.position(0, 0);
+      cnv.position(0, 50);
       background(bg);
       stroke(255, 93, 0);
       strokeWeight(2);
