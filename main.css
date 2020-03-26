@@ -301,12 +301,17 @@ a:hover {
 
 
     #logo {
-        width: 7rem;
+        width: 5rem;
         align-self: flex-start;
         padding-left:0;
         padding-top:1.6rem;
 
     }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
     .menuItemsOne{
         align-self: flex-end;
         font-size: medium;
@@ -329,25 +334,21 @@ a:hover {
     }
 
     .imageHolder {
-        width: 12rem;
+        width: 10rem;
         padding-left: 0px;
         margin-left: 0;
     }
     .projectThumbnail {
-        width: 250px;
+        width: 225px;
         margin-top: 5rem;
     }
 
     .projectCaption {
-        padding-left: 5rem;
+        padding-left: 3rem;
     }
-}
-
-@media screen and screen(max-width: 600px) {
-
     .download {
         display:none;
     }
-
 }
+
 
