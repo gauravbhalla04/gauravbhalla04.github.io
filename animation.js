@@ -39,10 +39,10 @@ function draw() {
 
       if (width  <= bgWidth) {
 
-        cnv = createCanvas(width, height - 148);
+        cnv = createCanvas(width, height - 150);
       }
       else {
-        cnv = createCanvas(bgWidth, bgHeight - 148);
+        cnv = createCanvas(bgWidth, bgHeight - 150);
         width = bgWidth;
         height = bgHeight;
       }
@@ -53,7 +53,6 @@ function draw() {
       stroke(255, 93, 0);
       strokeWeight(2);
       noFill();
-      rect(0, 0, width - 3, height - 148);
       noStroke();
       fill(255, 93, 0);
       rect(food.x, food.y, scl, scl);
