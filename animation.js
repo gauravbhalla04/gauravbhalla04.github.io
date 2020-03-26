@@ -172,6 +172,6 @@ class Snake {
     rect(this.x, this.y, scl, scl);
   }
   
-  }
+  
 
 }
