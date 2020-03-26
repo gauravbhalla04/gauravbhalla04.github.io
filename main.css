@@ -5,6 +5,7 @@ a {
 
 body {
     display: block;
+    max-width: 100vw;
     background: #141414;
     margin: 0px;
     z-index: 0;
