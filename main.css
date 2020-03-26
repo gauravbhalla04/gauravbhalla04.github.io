@@ -3,11 +3,6 @@ a {
     color: #ff9300 !important;
 }
 
-h1 {
-    padding-top: 5rem;
-    left: 5%;
-}
-
 body {
     display: block;
     background: #141414;
@@ -82,6 +77,10 @@ a:hover {
 #socials {
     color: #ff9300;
     font-size: 24px;
+}
+
+.title {
+    font-size: 3rem;
 }
 
 .download {
