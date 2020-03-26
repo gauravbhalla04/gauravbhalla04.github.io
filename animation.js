@@ -16,7 +16,7 @@ function setup() {
   pickLocation();
   frameRate(10);
 }
-
+/*
 function keyPressed() {
   if (keyCode === UP_ARROW) {
     snake.dir(0, -1);
@@ -28,13 +28,15 @@ function keyPressed() {
     snake.dir(-1, 0);
   }
 }
-
+*/
 function draw() {
 
   var width = windowWidth;
   var height = windowHeight;
 
   if (dead == false) {
+    
+      snake.snakeController();
 
       if (width  <= bgWidth) {
 
@@ -168,6 +170,19 @@ class Snake {
 
 
     rect(this.x, this.y, scl, scl);
+  }
+  
+  snakeController() {
+    snakeDirection = random(0, 4);
+    if (snakeDirection == 0) {
+      this.dir(0, -1);
+    } else if (snakeDirection == 1) {
+      this.dir(1, 0);
+    } else if (snakeDirection == 2) {
+      this.dir(0, 1);
+    } else if (snakeDirection == 3) {
+      this.dir(-1, 0);
+    }
   }
 
 }
