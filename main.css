@@ -22,7 +22,7 @@ body {
 
 footer {
   position: absolute;
-   
+
   margin-top: 2%;
   height: 50;
   font-size: 0.8rem;
@@ -64,7 +64,7 @@ a:hover {
     padding-right: 8rem;
     padding-left: 8rem;
     font-size: 1rem;
-    
+
 }
 
 #footerText {
@@ -313,71 +313,258 @@ a:hover {
 }
 
 
-@media screen and (max-width: 700px){
-    /*For Mobile only*/
+@media (min-width: 320px) and (max-width: 480px) {
+
     a {
-        font-size: 0.3rem;
-    }
-    .linkInText {
-        font-size: 0.8rem;
-    }
-    #socials {
-        color: #ffffff;
-        font-size: 10px;
-        padding-right: 1rem;
-        padding-left: 1rem;
+        text-decoration: none !important;
+        color: #ffffff !important;
     }
 
+
+    body {
+        display: block;
+        overflow-x: hidden !important;
+        max-width: 100vw;
+        background: #ffffff;
+        margin: 0px;
+        z-index: 0;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .section {
+        position: relative;
+        min-height: 100vh;
+        width: 100vw;
+    }
+
+    footer {
+      position: absolute;
+
+      margin-top: 2%;
+      height: 3rem;
+      font-size: 0.8rem;
+      left: 0;
+      right: 0;
+      padding: 1rem;
+      bottom: 0;
+      background-color: #24292E;
+    }
+
+    p {
+        color: #000000;
+        font-size: 0.8rem;
+    }
+
+    table {
+        float: left;
+    }
+
+    a:hover {
+        opacity: 1 !important;
+    }
 
     #logo {
         width: 5rem;
-        align-self: flex-start;
-        padding-left:0;
-        padding-top:1.6rem;
+    }
+
+
+    #navbar{
+        margin: 0px;
+        float: left;
+        justify-content: center;
+        width: 100%;
+        background-color: #24292e;
+    }
+
+    #aboutText {
+        padding-right: 3rem;
+        padding-left: 3rem;
+        font-size: 1rem;
 
     }
-    
+
+    #footerText {
+        color: #ffffff;
+    }
+
+    #projects {
+        position:fixed;
+        left: 0;
+        padding-left: 2rem;
+        width: 100vw;
+        height: 2.5rem;
+        bottom: 0;
+        padding-top: 1rem;
+    }
+
+    #about {
+        position:fixed;
+        left: 5%;
+        width: 90vw;
+        background-color: #24292e;
+        height: 2rem;
+        bottom: 3rem;
+        padding-top: 1rem;
+    }
+
+    #socials {
+        color: #ffffff;
+        font-size: 0.5rem;
+    }
+
+    .linkInText {
+        color: #000000 !important;
+        font-size: 1rem !important;
+    }
+
+
     .title {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
     }
-    
-    .menuItemsOne{
-        align-self: flex-end;
-        font-size: medium;
-        margin-right:1rem;
+
+    .download {
+        display: none;
     }
-    .menuItemsTwo{
-        align-self: flex-end;
-        font-size: medium;
-        margin-right:1rem;
+
+    .menuItemsOne {
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 0.5rem;
+        z-index: 2;
+        position: absolute;
+        top: 0.5rem;
+        left: 40%;
+
+        transform: translate(-50%, -50%);
+
     }
-    .menuItemsThree{
-        align-self: flex-end;
-        font-size: medium;
-        margin-right:1rem;
+    .menuItemsTwo {
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 0.5rem;
+        z-index: 2;
+        position: absolute;
+        top: 0.5rem;
+        left: 50%;
+
+        transform: translate(-50%, -50%);
+
+    }
+    .menuItemsThree {
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 0.5rem;
+        z-index: 2;
+        position: absolute;
+        top: 0.5rem;
+        left: 60%;
+
+        transform: translate(-50%, -50%);
+
     }
     .menuItemsFour{
-        align-self: flex-end;
-        font-size: medium;
-        margin-right:1rem;
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 0.5rem;
+        z-index: 2;
+        position: absolute;
+        top: 0.5rem;
+        left: 70%;
+
+        transform: translate(-50%, -50%);
+
+    }
+
+    .spacer {
+        height: 1.5rem;
+        width: 100vw;
+    }
+
+    .inactive {
+        opacity: 0.7;
+    }
+
+    .socialsOne {
+
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 1rem;
+        z-index: 2;
+        position: absolute;
+        top: 1.6rem;
+        left: 85%;
+        color: #ffffff;
+
+        transform: translate(-50%, -50%);
+    }
+    .socialsTwo {
+        color: #ffffff;
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 1rem;
+        z-index: 2;
+        position: absolute;
+        top: 1.6rem;
+        left: 90%;
+
+        transform: translate(-50%, -50%);
+    }
+    .socialsThree {
+        color: #ffffff;
+        grid-column: menu-start/menu-end;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-content: center;
+        justify-content: center;
+        padding-right: 1rem;
+        z-index: 2;
+        position: absolute;
+        top: 1.6rem;
+        left: 95%;
+
+        transform: translate(-50%, -50%);
+    }
+
+
+    .projectThumbnail {
+        width: 5rem;
+        margin-top: 2rem;
     }
 
     .imageHolder {
-        width: 10rem;
-        padding-left: 0px;
-        margin-left: 0;
-    }
-    .projectThumbnail {
-        width: 225px;
-        margin-top: 5rem;
+        width: 40rem;
+        padding-left: 3rem;
+        padding-right: 0;
+        margin-right: 0;
     }
 
     .projectCaption {
-        padding-left: 3rem;
+        width:40rem;
+        padding-right: 3rem;
+        padding-left: 0;
+        margin-left: 0;
+        padding-top: 2rem;
     }
-    .download {
-        display:none;
-    }
+
+
 }
-
-
