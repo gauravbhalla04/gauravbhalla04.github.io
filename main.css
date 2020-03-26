@@ -372,17 +372,17 @@ a:hover {
 
     #logo {
         width: 5rem;
-        top: 0.8rem !important;
+        padding-top: 1rem !important;
     }
 
 
     #navbar{
-        margin: 0px;
+        margin-top: 0px;
         float: left;
         justify-content: center;
         width: 100%;
         background-color: #24292e;
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
 
     #aboutText {
@@ -418,7 +418,7 @@ a:hover {
 
     #socials {
         color: #ffffff;
-        font-size: 0.5rem !important;
+        font-size: 0.7rem !important;
     }
 
     .linkInText {
@@ -508,7 +508,7 @@ a:hover {
     }
 
     .socialsOne {
-        font-size: 0.5rem !important;
+        font-size: 0.7rem !important;
         grid-column: menu-start/menu-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -524,7 +524,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsTwo {
-        font-size: 0.5rem !important;
+        font-size: 0.7rem !important;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
@@ -540,7 +540,7 @@ a:hover {
         transform: translate(-50%, -50%);
     }
     .socialsThree {
-        font-size: 0.5rem !important;
+        font-size: 0.7rem !important;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
