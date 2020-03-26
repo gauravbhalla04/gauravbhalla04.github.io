@@ -78,7 +78,7 @@ a:hover {
 
 #socials {
     color: #ff9300;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .title {
@@ -228,7 +228,7 @@ a:hover {
     margin-left: 0;
     padding-top: 3rem;
 }
-
+/*
 @media screen and (max-width: 1200px){
     /*For Mobile only*/
 
@@ -350,3 +350,4 @@ a:hover {
     }
 
 }
+*/
