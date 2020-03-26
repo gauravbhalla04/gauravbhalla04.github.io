@@ -52,6 +52,7 @@ a:hover {
     margin: 0px;
     float: left;
     justify-content: center;
+    width: 100%;
 }
 
 #footerText {
