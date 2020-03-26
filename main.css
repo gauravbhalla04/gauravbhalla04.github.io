@@ -288,6 +288,8 @@ a:hover {
     #socials {
         color: #ff9300;
         font-size: 10px;
+        padding-right: 1rem;
+        padding-left: 1rem;
     }
 
 
