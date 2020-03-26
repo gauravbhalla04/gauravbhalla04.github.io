@@ -6,7 +6,7 @@ a {
 
 body {
     display: block;
-    overflow-y: hidden !important;
+    overflow-x: hidden !important;
     max-width: 100vw;
     background: #141414;
     margin: 0px;
