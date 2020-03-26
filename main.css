@@ -365,7 +365,7 @@ a:hover {
 
     #logo {
         width: 5rem;
-        top: 0.5rem;
+        top: 0.8rem;
     }
 
 
@@ -375,6 +375,7 @@ a:hover {
         justify-content: center;
         width: 100%;
         background-color: #24292e;
+        padding-bottom: 1rem;
     }
 
     #aboutText {
@@ -410,7 +411,7 @@ a:hover {
 
     #socials {
         color: #ffffff;
-        font-size: 0.5rem;
+        font-size: 0.3rem;
     }
 
     .linkInText {
@@ -438,7 +439,7 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.8rem;
+        top: 1rem;
         left: 43%;
 
         transform: translate(-50%, -50%);
@@ -453,8 +454,8 @@ a:hover {
         padding-right: 0.5rem;
         z-index: 2;
         position: absolute;
-        top: 0.8rem;
-        left: 60%;
+        top: 1rem;
+        left: 57%;
 
         transform: translate(-50%, -50%);
 
@@ -469,7 +470,7 @@ a:hover {
         z-index: 2;
         position: absolute;
         top: 0.8rem;
-        left: 70%;
+        left: 67%;
 
         transform: translate(-50%, -50%);
 
@@ -484,7 +485,7 @@ a:hover {
         z-index: 2;
         position: absolute;
         top: 0.8rem;
-        left: 78%;
+        left: 80%;
 
         transform: translate(-50%, -50%);
 
@@ -500,7 +501,7 @@ a:hover {
     }
 
     .socialsOne {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         grid-column: menu-start/menu-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -509,30 +510,30 @@ a:hover {
         padding-right: 1rem;
         z-index: 2;
         position: absolute;
-        top: 1.6rem;
+        top: 1rem;
         left: 85%;
         color: #ffffff;
 
         transform: translate(-50%, -50%);
     }
     .socialsTwo {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         align-content: center;
         justify-content: center;
-        padding-right: 1rem;
+        padding-right: 1.2rem;
         z-index: 2;
         position: absolute;
-        top: 1.6rem;
+        top: 1rem;
         left: 90%;
 
         transform: translate(-50%, -50%);
     }
     .socialsThree {
-        font-size: 0.5rem;
+        font-size: 0.3rem;
         color: #ffffff;
         grid-column: menu-start/menu-end;
         display: grid;
@@ -542,7 +543,7 @@ a:hover {
         padding-right: 1rem;
         z-index: 2;
         position: absolute;
-        top: 1.6rem;
+        top: 1rem;
         left: 95%;
 
         transform: translate(-50%, -50%);
