@@ -46,6 +46,7 @@ function draw() {
         height = bgHeight;
       }
       cnv.style('display', 'block');
+      cnv.style('z-index', '-1');
       background(bg);
       stroke(255, 93, 0);
       strokeWeight(2);
