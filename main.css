@@ -35,7 +35,7 @@ footer {
   padding-right: 5rem;
   padding-left: 5rem;
   bottom: 5%;
-  background-color: #0E323A;
+  background-color: #24292E;
 }
 
 p {
@@ -69,7 +69,7 @@ a:hover {
     float: left;
     justify-content: center;
     width: 100%;
-    background-color: #0E323A;
+    background-color: #24292e;
 }
 
 #aboutText {
@@ -111,6 +111,14 @@ a:hover {
 .linkInText {
     color: #000000 !important;
     font-size: 1rem !important;
+}
+
+.blogPic {
+    max-width: 80%;
+}
+
+.blogPicContainer {
+    width: 100%;
 }
 
 
@@ -365,7 +373,7 @@ a:hover {
       right: 0;
       padding: 0.7rem !important;
       bottom: 0.5rem;
-      background-color: #0E323A;
+      background-color: #24292E;
     }
 
     p {
@@ -387,7 +395,7 @@ a:hover {
         left: 0.075rem !important;
 
     }
-    
+
     #logoThinkode {
         width: 5rem !important;
         padding-top: 0rem !important;
@@ -401,7 +409,7 @@ a:hover {
         float: left;
         justify-content: center;
         width: 100%;
-        background-color: #0E323A;
+        background-color: #24292e;
         padding: 0.5rem;
     }
 
@@ -580,9 +588,17 @@ a:hover {
         transform: translate(-50%, -50%);
     }
 
+    .blogPic {
+        max-width: 80%;
+    }
+
+    .blogPicContainer {
+        width: 100%;
+    }
+
 
     .projectThumbnail {
-        width: 5rem;
+        width: 10rem;
         margin-top: 2rem;
     }
 
