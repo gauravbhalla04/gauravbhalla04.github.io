@@ -35,7 +35,7 @@ footer {
   padding-right: 5rem;
   padding-left: 5rem;
   bottom: 5%;
-  background-color: #24292E;
+  background-color: #0E323A;
 }
 
 p {
@@ -69,7 +69,7 @@ a:hover {
     float: left;
     justify-content: center;
     width: 100%;
-    background-color: #24292e;
+    background-color: #0E323A;
 }
 
 #aboutText {
@@ -365,7 +365,7 @@ a:hover {
       right: 0;
       padding: 0.7rem !important;
       bottom: 0.5rem;
-      background-color: #24292E;
+      background-color: #0E323A;
     }
 
     p {
@@ -401,7 +401,7 @@ a:hover {
         float: left;
         justify-content: center;
         width: 100%;
-        background-color: #24292e;
+        background-color: #0E323A;
         padding: 0.5rem;
     }
 
