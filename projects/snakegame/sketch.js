@@ -18,13 +18,13 @@ function setup() {
 }
 
 function keyPressed() {
-  if (keyCode === UP_ARROW or keyCode == 87) {
+  if (keyCode === UP_ARROW || keyCode == 87) {
     snake.dir(0, -1);
-  } else if (keyCode === DOWN_ARROW or keyCode == 83) {
+  } else if (keyCode === DOWN_ARROW || keyCode == 83) {
     snake.dir(0, 1);
-  } else if (keyCode === RIGHT_ARROW or keyCode == 68) {
+  } else if (keyCode === RIGHT_ARROW || keyCode == 68) {
     snake.dir(1, 0);
-  } else if (keyCode === LEFT_ARROW or keyCode == 65) {
+  } else if (keyCode === LEFT_ARROW || keyCode == 65) {
     snake.dir(-1, 0);
   }
 }
