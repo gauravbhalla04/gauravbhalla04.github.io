@@ -22,6 +22,7 @@ body {
     position: relative;
     min-height: 100vh;
     width: 100vw;
+    padding: 5rem;
 }
 
 footer {
@@ -361,6 +362,7 @@ a:hover {
         position: relative;
         min-height: 100vh;
         width: 100vw;
+        padding: 5rem;
     }
 
     footer {
