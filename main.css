@@ -145,7 +145,7 @@ a:hover {
     z-index: 2;
     position: absolute;
     top: 1.6rem;
-    left: 40%;
+    left: 45%;
 
     transform: translate(-50%, -50%);
 
@@ -160,7 +160,7 @@ a:hover {
     z-index: 2;
     position: absolute;
     top: 1.6rem;
-    left: 50%;
+    left: 55%;
 
     transform: translate(-50%, -50%);
 
@@ -175,7 +175,7 @@ a:hover {
     z-index: 2;
     position: absolute;
     top: 1.6rem;
-    left: 62.5%;
+    left: 60%;
 
     transform: translate(-50%, -50%);
 
@@ -400,7 +400,7 @@ a:hover {
 
     #logoThinkode {
         width: 5rem !important;
-        padding-top: 0rem !important;
+        top: 1rem !important;
         left: 0.075rem !important;
 
     }
@@ -621,3 +621,4 @@ a:hover {
 
 
 }
+
