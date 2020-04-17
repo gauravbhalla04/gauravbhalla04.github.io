@@ -600,6 +600,14 @@ a:hover {
         transform: translate(-50%, -50%);
     }
 
+    .card {
+        margin-bottom:10px;
+        min-width: 300px !important;
+        border-radius: 5px;
+        padding: 3rem;
+        margin: 10px 3px;
+    }
+
     .blogPic {
         max-width: 100%;
         right: 10%;
@@ -633,4 +641,3 @@ a:hover {
 
 
 }
-
