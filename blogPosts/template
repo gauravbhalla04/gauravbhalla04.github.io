@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-152787238-3');
+        </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Gaurav Bhalla's review of An Armchair Economist">
+        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
+        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Gaurav Bhalla">
+
+
+        <title> Gaurav Bhalla's review of An Armchair Economist </title>
+
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="main.css">
+
+    </head>
+    <body>
+
+        <div id="navbar">
+
+
+            <div>
+                <a href="index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
+
+            </div>
+
+            <div class="menuItems">
+
+                <div class="menuItemsOne">
+                    <a class="inactive" href="index.html">Home</a>
+
+                </div>
+
+                <div class="menuItemsTwo">
+                    <a class="inactive" href="projects.html">Projects</a>
+
+                </div>
+
+                <div class="menuItemsThree">
+                    <a href="thinkode.html">Blog</a>
+
+                </div>
+                <div class="menuItemsFour">
+                    <a class="inactive" href="index.html">About</a>
+
+                </div>
+                <div id="socials">
+
+                    <div class="socialsOne">
+
+                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
+
+                    </div>
+
+                    <div class="socialsTwo">
+                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="socialsThree">
+                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <h1 class="title text">title</h1>
+
+
+        <div class="container">
+
+          <div class="row text">
+              <div class="col" class="blogPicContainer">
+                  <img class="blogPic" src="wherever the picture is">
+              </div>
+
+          </div>
+          <div class="spacer"> </div>
+            <div class="row text">
+            <div class="col">
+
+                <p>
+                 Paragraphs go here
+                </p>
+                
+                <br>
+                
+                <p>
+                next para etc
+                </p>
+
+             </div>
+          </div>
+        </div>
+        
+<!-- Begin Mailchimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+            /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+               We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+        </style>
+        <div id="mc_embed_signup">
+            <form action="https://github.us4.list-manage.com/subscribe/post?u=1b788641717d77e94c11a6d94&amp;id=aafa7bfd90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Subscribe</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1b788641717d77e94c11a6d94_aafa7bfd90" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="transition-duration: 0.4s;
+            background-color: #00395f;
+            color: white;
+            box-shadow: none;
+            border: none;
+            border-radius: 5px;"></div>
+                </div>
+            </form>
+        </div>
+
+<!--End mc_embed_signup-->
+
+
+        <div class="spacer">
+        </div>
+        <div class="spacer">
+        </div>
+
+        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
+
+            <p id='footerText'> A blog about MUN, books and news, with very little about MUN, books and news </p>
+
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script>
+            ScrollReveal({ delay: 500, duration: 1200 });
+            ScrollReveal().reveal('.project');
+            ScrollReveal().reveal('.text');
+        </script>
+
+    </body>
+</html>
