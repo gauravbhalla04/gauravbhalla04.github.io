@@ -39,28 +39,28 @@
 
 
             <div>
-                <a href="https://www.gauravbhalla.co.uk/index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
+                <a href="https://gauravbhalla.co.uk/index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
 
             </div>
 
             <div class="menuItems">
 
                 <div class="menuItemsOne">
-                    <a class="inactive" href="https://www.gauravbhalla.co.uk/index.html">Home</a>
+                    <a class="inactive" href="https://gauravbhalla.co.uk/index.html">Home</a>
 
                 </div>
 
                 <div class="menuItemsTwo">
-                    <a class="inactive" href="https://www.gauravbhalla.co.uk/projects.html">Projects</a>
+                    <a class="inactive" href="https://gauravbhalla.co.uk/projects.html">Projects</a>
 
                 </div>
 
                 <div class="menuItemsThree">
-                    <a href="https://www.gauravbhalla.co.uk/thinkode.html">Blog</a>
+                    <a href="https://gauravbhalla.co.uk/thinkode.html">Blog</a>
 
                 </div>
                 <div class="menuItemsFour">
-                    <a class="inactive" href="https://www.gauravbhalla.co.uk/index.html">About</a>
+                    <a class="inactive" href="https://gauravbhalla.co.uk/index.html">About</a>
 
                 </div>
                 <div id="socials">
