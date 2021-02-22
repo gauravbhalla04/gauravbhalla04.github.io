@@ -22,7 +22,7 @@
         <meta name="author" content="Gaurav Bhalla">
 
 
-        <title> Gaurav Bhalla's review of An Armchair Economist </title>
+        <title> TITLE GOES HERE </title>
 
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
 
@@ -39,28 +39,28 @@
 
 
             <div>
-                <a href="index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
+                <a href="gauravbhalla.co.uk/index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
 
             </div>
 
             <div class="menuItems">
 
                 <div class="menuItemsOne">
-                    <a class="inactive" href="index.html">Home</a>
+                    <a class="inactive" href="gauravbhalla.co.uk/index.html">Home</a>
 
                 </div>
 
                 <div class="menuItemsTwo">
-                    <a class="inactive" href="projects.html">Projects</a>
+                    <a class="inactive" href="gauravbhalla.co.uk/projects.html">Projects</a>
 
                 </div>
 
                 <div class="menuItemsThree">
-                    <a href="thinkode.html">Blog</a>
+                    <a href="gauravbhalla.co.uk/thinkode.html">Blog</a>
 
                 </div>
                 <div class="menuItemsFour">
-                    <a class="inactive" href="index.html">About</a>
+                    <a class="inactive" href="gauravbhalla.co.uk/index.html">About</a>
 
                 </div>
                 <div id="socials">
