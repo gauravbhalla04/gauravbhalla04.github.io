@@ -52,14 +52,14 @@ table {
 a:hover {
     opacity: 1 !important;
 }
-
+/*
 #logo {
     width: 21%;
 }
 #logoThinkode {
     width: 21%;
 }
-
+*/
 #intro {
     padding-left: 5rem;
     padding-right: 5rem;
@@ -403,7 +403,7 @@ a:hover {
     }
 
     #logo {
-        width: 5rem !important;
+        width: 5rem;
         padding-top: 0.3rem !important;
         left: 0.075rem !important;
 
