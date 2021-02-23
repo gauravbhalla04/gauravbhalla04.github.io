@@ -208,16 +208,17 @@
                  $(document).ready(function() {
                     var $window = $(window);
                     var $menuToggler = $('#menuToggler');
+                    var $menuItems = $('.menuItems')
                      
                     function checkWidth() {
                         var windowsize = $window.width();
                         if (windowsize < 480) {
+                            $menuToggler.css("display", "inline");
+                            $menuItems.css("display", "none");
                             
                         }
                     }
-                    // Execute on load
                     checkWidth();
-                    // Bind event listener
                     $(window).resize(checkWidth);
                 });
         </script>
