@@ -31,11 +31,24 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
 
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-
+        
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        
+        
 
 
         <link rel="stylesheet" href="main.css">
+        
+        <style>
+            
+            #menuToggler {
+                
+                display: none;
+                
+            }
+            
+            
+        </style>
 
     </head>
     <body style="background: #f1f1f1">
@@ -86,6 +99,7 @@
                 </div>
 
             </div>
+            
 
         </div>
 
@@ -187,6 +201,26 @@
 
         </footer>
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+         <script>
+             
+                 $(document).ready(function() {
+                    var $window = $(window);
+                    var $menuToggler = $('#menuToggler');
+                     
+                    function checkWidth() {
+                        var windowsize = $window.width();
+                        if (windowsize < 480) {
+                            
+                        }
+                    }
+                    // Execute on load
+                    checkWidth();
+                    // Bind event listener
+                    $(window).resize(checkWidth);
+                });
+        </script>
 
         <script type="text/javascript">
             
@@ -198,8 +232,7 @@
             function changeText() {
                 document.getElementById("footerText").innerHTML = "Gaurav Bhalla";
             }
-
-            
+      
         </script>
 
     </body>
