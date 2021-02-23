@@ -42,7 +42,7 @@ footer {
 p {
     text-align: justify;
     color: #000000;
-    font-size: 0.8rem;
+    font-size: 1rem;
 }
 
 table {
@@ -391,7 +391,7 @@ a:hover {
 
     p {
         color: #000000;
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 
     table {
@@ -403,14 +403,14 @@ a:hover {
     }
 
     #logo {
-        width: 5rem !important;
+        width: 5rem;
         padding-top: 0.3rem !important;
         left: 0.075rem !important;
 
     }
 
     #logoThinkode {
-        width: 5rem !important;
+        width: 5rem;
         top: 1rem !important;
         left: 0.075rem !important;
 
