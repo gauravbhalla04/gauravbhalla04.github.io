@@ -31,6 +31,24 @@
 
 
         <link rel="stylesheet" href="main.css">
+        
+        <style>
+            
+            #menuToggler {
+                
+                display: none;
+                color: white;
+                float: right;
+                font-size: 1.5rem;
+                padding-right: 1rem;
+                padding-top: 0rem;
+                margin-top: -1.75rem;
+            }
+            
+            
+        </style>
+        
+        
 
     </head>
     <body>
@@ -81,6 +99,9 @@
                 </div>
 
             </div>
+            
+            <i class="fas fa-bars" id="menuToggler"></i>
+
 
         </div>
 
@@ -151,6 +172,34 @@
         </footer>
 
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+         <script>
+             
+                 $(document).ready(function() {
+                    var $window = $(window);
+                    var $menuToggler = $('#menuToggler');
+                    var $menuItems = $('.menuItems');
+                    var $logo = $('#logo');
+                     
+                    function checkWidth() {
+                        var windowsize = $window.width();
+                        if (windowsize < 480) {
+                            $menuToggler.css("display", "inline");
+                            $menuItems.css("display", "none");
+                            $logo.css("max-width", "100rem");
+                            $logo.css("width", "10rem");
+                            
+                        }
+                    }
+                    checkWidth();
+                    $(window).resize(checkWidth);
+                     document.getElementById("menuToggler").onclick = function () {
+                        location.href = "https://gauravbhalla.co.uk/menu.html";
+                    };
+                });
+        </script>
+        
         <script>
             ScrollReveal({ delay: 500, duration: 1200 });
             ScrollReveal().reveal('.project');
