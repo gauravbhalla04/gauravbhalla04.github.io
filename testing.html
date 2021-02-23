@@ -47,8 +47,8 @@
                 display: none;
                 color: white;
                 float: right;
-                font-size: 3rem;
-                
+                font-size: 2rem;
+                padding-right: 1rem;
             }
             
             
@@ -214,13 +214,15 @@
                  $(document).ready(function() {
                     var $window = $(window);
                     var $menuToggler = $('#menuToggler');
-                    var $menuItems = $('.menuItems')
+                    var $menuItems = $('.menuItems');
+                    var $logo = $('.logo');
                      
                     function checkWidth() {
                         var windowsize = $window.width();
                         if (windowsize < 480) {
                             $menuToggler.css("display", "block");
                             $menuItems.css("display", "none");
+                            $logo.css("width", "35%");
                             
                         }
                     }
