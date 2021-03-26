@@ -8,6 +8,7 @@ var cnv;
 var dead = false;
 var startSecond;
 var sizetext;
+var frameRate = 10;
 
 
 function setup() {
@@ -114,6 +115,7 @@ class Snake {
     var d = dist(this.x, this.y, pos.x, pos.y);
     if (d < 1) {
       this.total++;
+      frameRate(frameRate + 0.1);
       return true;
     } else {
       return false;
