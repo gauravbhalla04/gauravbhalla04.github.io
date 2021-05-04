@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-152787238-3');
+        </script>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Gaurav Bhalla's review of An Armchair Economist">
+        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
+        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Gaurav Bhalla">
+        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+
+
+        <title> Gaurav Bhalla's Blog </title>
+
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+        <link rel="stylesheet" href="main.css">
+        
+        
+<style>
+            
+            #menuToggler {
+                
+                display: none;
+                color: white;
+                float: right;
+                font-size: 1.5rem;
+                padding-right: 1rem;
+                padding-top: 0rem;
+                margin-top: -1.75rem;
+            }
+            
+            
+        </style>
+
+    </head>
+    <body>
+
+        <div id="navbar">
+
+
+            <div>
+                <a href="https://gauravbhalla.co.uk/index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
+
+            </div>
+
+            <div class="menuItems">
+
+                <div class="menuItemsOne">
+                    <a class="inactive" href="https://gauravbhalla.co.uk/index.html">Home</a>
+
+                </div>
+
+                <div class="menuItemsTwo">
+                    <a class="inactive" href="https://gauravbhalla.co.uk/projects.html">Projects</a>
+
+                </div>
+
+                <div class="menuItemsThree">
+                    <a href="https://gauravbhalla.co.uk/blog.html">Blog</a>
+
+                </div>
+                <div class="menuItemsFour">
+                    <a class="inactive" href="https://gauravbhalla.co.uk/index.html">About</a>
+
+                </div>
+                <div id="socials">
+
+                    <div class="socialsOne">
+
+                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
+
+                    </div>
+
+                    <div class="socialsTwo">
+                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="socialsThree">
+                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            
+            <i class="fas fa-bars" id="menuToggler"></i>
+
+
+        </div>
+
+        <h1 class="title text"> Ship of Theseus (Abridged) </h1>
+
+
+        <div class="container">
+
+          <div class="row text">
+              <div class="col" class="blogPicContainer">
+                  <img class="blogPic" src="images/shipOfTheseusShort.jpg">
+              </div>
+
+          </div>
+          <div class="spacer"> </div>
+            <div class="row text">
+            <div class="col">
+
+                <p>
+
+                            PARAGRAPHS
+
+                        </p>
+                        <br>
+
+                        
+
+             </div>
+          </div>
+        </div>
+        
+
+
+
+        <div class="spacer">
+        </div>
+        <div class="spacer">
+        </div>
+
+        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
+
+            <p id='footerText'> FOOTER HERE </p>
+
+        </footer>
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+         <script>
+             
+                 $(document).ready(function() {
+                    var $window = $(window);
+                    var $menuToggler = $('#menuToggler');
+                    var $menuItems = $('.menuItems');
+                    var $logo = $('#logo');
+                     
+                    function checkWidth() {
+                        var windowsize = $window.width();
+                        if (windowsize < 480) {
+                            $menuToggler.css("display", "inline");
+                            $menuItems.css("display", "none");
+                            $logo.css("max-width", "100rem");
+                            $logo.css("width", "10rem");
+                            
+                        }
+                    }
+                    checkWidth();
+                    $(window).resize(checkWidth);
+                     document.getElementById("menuToggler").onclick = function () {
+                        location.href = "https://gauravbhalla.co.uk/menu.html";
+                    };
+                });
+        </script>
+        
+        <script>
+            ScrollReveal({ delay: 500, duration: 1200 });
+            ScrollReveal().reveal('.project');
+            ScrollReveal().reveal('.text');
+        </script>
+
+    </body>
+</html>
