@@ -21,6 +21,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <meta name="language" content="English">
         <meta name="author" content="Gaurav Bhalla">
+        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
 
         <title> Gaurav Bhalla - HOME </title>
@@ -31,11 +32,30 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
 
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-
+        
+        
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        
+        
 
 
         <link rel="stylesheet" href="main.css">
+        
+        <style>
+            
+            #menuToggler {
+                
+                display: none;
+                color: white;
+                float: right;
+                font-size: 1.5rem;
+                padding-right: 1rem;
+                padding-top: 0rem;
+                margin-top: -1.75rem;
+            }
+            
+            
+        </style>
 
     </head>
     <body style="background: #f1f1f1">
@@ -84,9 +104,12 @@
                         <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
+               
 
             </div>
-
+            
+            <i class="fas fa-bars" id="menuToggler"></i>
+    
         </div>
 
 
@@ -113,12 +136,6 @@
                     to win outstanding delegate at my next conference.
                 </p>
                 <p id="aboutText">
-                    As for web development, I mainly do websites, front end with pure code and both back and frontend with a CMS. I first got
-                    involved in python, the first language I picked up that I truly tried to learn and become proficient in. That later
-                    developed to Java, then JavaScript, from which point I moved onto web development. I'm looking into some backend
-                    languages, but I would rather not use python. I also want to learn app development, having made a few apps before
-                    that I successfully ran at least on my phone.
-                <p id="aboutText">
                     I'm also interested in maths, although I prefer algebra over geometry. I like maths because of how each step follows on
                     from the previous with logic, you can work things out from reasoning alone.
                 </p>
@@ -135,51 +152,44 @@
             <p class="title"> Recent blog posts </p>
         </section>
         
+        <table class="project">
+
+                      <tr>
+                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/shipOfTheseus.jpg"></td>
+                          <td class="projectCaption"><p> How does the ship of Theseus paradox link to identity? - full article </p>
+                            <p> <a class="linkInText" href="blogPosts/shipOfTheseus.html"> Continue reading </a> </p></td>
+
+            </table>
+        
             
         
             <table class="project">
 
                       <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/anArmchairEconomist.jpg"></td>
-                          <td class="projectCaption"><p> An Armchair Economist review </p>
-                            <p> <a class="linkInText" href="blogPosts/anArmchairEconomist.html"> Continue reading </a> </p></td>
+                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/shipOfTheseusShort.jpg"></td>
+                          <td class="projectCaption"><p> How does the ship of Theseus paradox link to identity? </p>
+                            <p> <a class="linkInText" href="blogPosts/shipOfTheseusShort.html"> Continue reading </a> </p></td>
 
             </table>
         
         <table class="project">
 
                       <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/politicalThinking.jpg"></td>
-                        <td class="projectCaption"><p> Political thinking: a very short introduction review </p>
-                            <p> <a class="linkInText" href="blogPosts/politicalThinking.html"> Continue reading </a> </p></td>
+                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/economicvolatility.jpg"></td>
+                          <td class="projectCaption"><p> Why did Russia's 1998 economic boom fuelled by oil prices not last? </p>
+                            <p> <a class="linkInText" href="blogPosts/economicVolatility.html"> Continue reading </a> </p></td>
 
             </table>
         
-            <table class="project">
-
-                      <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/oop-thinkode.jpg"></td>
-                        <td class="projectCaption"><p> Object oriented programming </p>
-                            <p> <a class="linkInText" href="blogPosts/oop.html"> Continue reading </a> </p></td>
-                      </tr>
-
-
-              </table>
-                                 
             <table class="project" style="padding-bottom: 8rem">
 
                       <tr>
-                        <td class="imageHolder"><a target="_blank" href="projects/snakegame/game.html"><img class="projectThumbnail" src="images/snake.png"></a></td>
-                        <td class="projectCaption"><p> All my computer science projects </p>
-                            <p> <a class="linkInText" href="projects.html"> Continue reading </a> </p></td>
-                      </tr>
+                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/environmentAndEconomy.jpg"></td>
+                          <td class="projectCaption"><p> The impact of environmental regulations on the economy </p>
+                            <p> <a class="linkInText" href="blogPosts/environmentAndEconomy.html"> Continue reading </a> </p></td>
 
-
-              </table>
-        
-
-
-              
+            </table>
+                       
 
         <footer id="about" style="right: 0; left: 0; min-width: 100vw !important; max-width: 100vw !important; padding-left: 5rem; padding-bottom: 1rem;bottom: 0 !important; background-color: #00395f !important">
 
@@ -187,6 +197,33 @@
 
         </footer>
         <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+         <script>
+             
+                 $(document).ready(function() {
+                    var $window = $(window);
+                    var $menuToggler = $('#menuToggler');
+                    var $menuItems = $('.menuItems');
+                    var $logo = $('#logo');
+                     
+                    function checkWidth() {
+                        var windowsize = $window.width();
+                        if (windowsize < 480) {
+                            $menuToggler.css("display", "inline");
+                            $menuItems.css("display", "none");
+                            $logo.css("max-width", "100rem");
+                            $logo.css("width", "10rem");
+                            
+                        }
+                    }
+                    checkWidth();
+                    $(window).resize(checkWidth);
+                     document.getElementById("menuToggler").onclick = function () {
+                        location.href = "https://gauravbhalla.co.uk/menu.html";
+                    };
+                });
+        </script>
 
         <script type="text/javascript">
             
@@ -196,10 +233,9 @@
             
             window.onscroll = function() {changeText()};
             function changeText() {
-                document.getElementById("footerText").innerHTML = "Gaurav Bhalla";
+                document.getElementById("footerText").innerHTML = "Follow my twitter for updates when I post";
             }
-
-            
+      
         </script>
 
     </body>
