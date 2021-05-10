@@ -60,7 +60,12 @@ a:hover {
     width: 21%;
 }
 
-
+#backImg {
+    max-width: 100%;
+    height: 36vh;
+/**    right: 10%;
+    left: 10%; **/
+}
 
 #intro {
     padding-left: 5rem;
