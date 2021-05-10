@@ -60,6 +60,10 @@ a:hover {
     width: 21%;
 }
 
+#green {
+    color: #72af57;
+}
+
 #intro {
     padding-left: 5rem;
     padding-right: 5rem;
