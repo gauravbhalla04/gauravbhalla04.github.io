@@ -67,6 +67,11 @@ a:hover {
     left: 10%; **/
 }
 
+.episodes {
+    margin: 5rem;
+}
+
+
 #intro {
     padding-left: 5rem;
     padding-right: 5rem;
