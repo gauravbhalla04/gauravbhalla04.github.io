@@ -71,11 +71,6 @@ a:hover {
     margin: 5rem;
 }
 
-&::-webkit-media-controls-enclosure {
-    border-radius: 5px;
-    background-color: green;
-}
-
 #intro {
     padding-left: 5rem;
     padding-right: 5rem;
