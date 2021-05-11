@@ -71,10 +71,8 @@ a:hover {
     margin: 5rem;
 }
 
-audio {
-    filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
-    width: 200px;
-    height: 25px;
+audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
+                background-color: red;
 }
 
 #intro {
