@@ -71,8 +71,9 @@ a:hover {
     margin: 5rem;
 }
 
-audio::-webkit-media-controls-panel, video::-webkit-media-controls-panel {
-                background-color: red;
+&::-webkit-media-controls-enclosure {
+    border-radius: 5px;
+    background-color: green;
 }
 
 #intro {
