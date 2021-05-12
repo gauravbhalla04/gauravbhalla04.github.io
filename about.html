@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-152787238-3');
+        </script>
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="title" content="Gaurav Bhalla - Home page">
+        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
+        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
+        <meta name="robots" content="index, follow">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="language" content="English">
+        <meta name="author" content="Gaurav Bhalla">
+        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+
+
+        <title> Gaurav Bhalla - HOME </title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
+
+        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+        
+        
+
+
+        <link rel="stylesheet" href="main.css">
+        
+        <style>
+            
+            #menuToggler {
+                
+                display: none;
+                color: white;
+                float: right;
+                font-size: 1.5rem;
+                padding-right: 1rem;
+                padding-top: 0rem;
+                margin-top: -1.75rem;
+            }
+            
+            
+        </style>
+
+    </head>
+    <body style="background: #f1f1f1">
+
+        <div id="navbar">
+
+
+            <div>
+                <a href="index.html"><img id="logo" src="images/logo.png" alt="my awesome logo"></a>
+
+            </div>
+
+            <div class="menuItems">
+
+                <div class="menuItemsOne">
+                    <a href="index.html">Home</a>
+
+                </div>
+
+                <div class="menuItemsTwo">
+                    <a class="inactive" href="projects.html">Projects</a>
+
+                </div>
+
+                <div class="menuItemsThree">
+                    <a class="inactive" href="blog.html">Blog</a>
+
+                </div>
+                <div class="menuItemsFour">
+                    <a class="inactive" href="#me">About</a>
+
+                </div>
+                <div id="socials">
+
+                    <div class="socialsOne">
+
+                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
+
+                    </div>
+
+                    <div class="socialsTwo">
+                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="socialsThree">
+                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+               
+
+            </div>
+            
+            <i class="fas fa-bars" id="menuToggler"></i>
+    
+        </div>
+        
+        <img class="backImg" style="width:100%" src="images/resizedGRNbackground.jpg">
+
+
+        <div class="container text" style="padding-bottom: 1rem;" id="#me">
+          <div class="row" style="padding-top: 1rem; padding-bottom: 1rem; left: 5rem; right: 5rem;">
+            <div class="col">
+                <p id="aboutText">
+                    Hi, I'm Gaurav Bhalla and this is my personal website. Here, you can find a few of my projects and my blog. I have a keen interest in politics and economics alongside philosophy.
+                    In order to further pursue these interests, I read widely and make sure to follow both local and global news.
+                </p>
+                
+                <p id="aboutText">
+                    I also take part in Model UN, I began only a few months ago and have taken part
+                    in two weekend conferences, being a commended delegate in the first and highly commended in the second. I'm aiming
+                    to win outstanding delegate at my next conference.
+                </p>
+                <p id="aboutText">
+                    I'm also interested in maths, although I prefer algebra over geometry. I like maths because of how each step follows on
+                    from the previous with logic, you can work things out from reasoning alone.
+                </p>
+                <p id="aboutText">
+                    - Gaurav Bhalla
+                </p>
+            </div>
+          </div>
+        </div> 
+
+        <footer id="about" style="right: 0; left: 0; min-width: 100vw !important; max-width: 100vw !important; padding-left: 5rem; padding-bottom: 1rem;bottom: 0 !important; background-color: #00395f !important">
+
+            <p id='footerText'> Gaurav Bhalla </p>
+
+        </footer>
+        <script src="https://unpkg.com/scrollreveal"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+         <script>
+             
+                 $(document).ready(function() {
+                    var $window = $(window);
+                    var $menuToggler = $('#menuToggler');
+                    var $menuItems = $('.menuItems');
+                    var $logo = $('#logo');
+                     
+                    function checkWidth() {
+                        var windowsize = $window.width();
+                        if (windowsize < 480) {
+                            $menuToggler.css("display", "inline");
+                            $menuItems.css("display", "none");
+                            $logo.css("max-width", "100rem");
+                            $logo.css("width", "10rem");
+                            
+                        }
+                    }
+                    checkWidth();
+                    $(window).resize(checkWidth);
+                     document.getElementById("menuToggler").onclick = function () {
+                        location.href = "https://gauravbhalla.co.uk/menu.html";
+                    };
+                });
+        </script>
+
+        <script type="text/javascript">
+            
+            ScrollReveal({ reset: false, delay: 500, duration: 800 });
+            ScrollReveal().reveal('.project');
+            ScrollReveal().reveal('.text');
+            
+            window.onscroll = function() {changeText()};
+            function changeText() {
+                document.getElementById("footerText").innerHTML = "Follow my twitter for updates when I post";
+            }
+      
+        </script>
+
+    </body>
+</html>
