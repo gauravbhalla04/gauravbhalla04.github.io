@@ -1,11 +1,6 @@
 body {
   margin: 0;
-  background-image: 
-    linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('https://images.pexels.com/photos/4038853/pexels-photo-4038853.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-color: #ECECEC;
 }
 .title {
   font-family: Sen;
@@ -17,11 +12,12 @@ body {
   align-items: center;
   text-align: center;
 margin: 3rem;
-  color: #ECECEC;
+  color: #2D2929;
 }
 
 .btn btn-primary {
   font-family: Sen !important;
+  background-color: #00395f;
 }
 
 .card-title {
