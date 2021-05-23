@@ -10,3 +10,11 @@
 
   color: #2D2929;
 }
+
+.btn btn-primary {
+  font-family: Sen !important;
+}
+
+.card-title {
+  font-family: Sen !important;
+}
