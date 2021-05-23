@@ -17,7 +17,7 @@ body {
   align-items: center;
   text-align: center;
 
-  color: #2D2929;
+  color: #ECECEC;
 }
 
 .btn btn-primary {
@@ -26,4 +26,9 @@ body {
 
 .card-title {
   font-family: Sen !important;
+}
+
+.card {
+  background: #2d2929;
+  color: #ececec;
 }
