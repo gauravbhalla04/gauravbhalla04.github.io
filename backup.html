@@ -11,10 +11,9 @@
           gtag('config', 'UA-152787238-3');
         </script>
 
-
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="title" content="Gaurav Bhalla - Home page">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Gaurav Bhalla's blog">
         <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
         <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
         <meta name="robots" content="index, follow">
@@ -24,24 +23,54 @@
         <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
 
-        <title> Gaurav Bhalla - HOME </title>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
+        <title> Gaurav Bhalla's blog </title>
 
         <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-        
-        
+
         <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-        
-        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
 
         <link rel="stylesheet" href="main.css">
-        
+
         <style>
+
+
+            button {
+            transition-duration: 0.4s;
+            background-color: #00395f;
+            color: white;
+            box-shadow: none;
+            border: none;
+            padding: 5px 1rem;
+            width: 15%;
+            border-radius: 5px;
+            }
+
+            button:hover {
+                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+            
+            }
+            @media (min-width: 320px) and (max-width: 480px) {
+
+                button {
+                transition-duration: 0.4s;
+                background-color: #00395f;
+                color: white;
+                box-shadow: none;
+                border: none;
+                padding: 0.5rem;
+                width: 40%;
+                border-radius: 5px;
+                }
+
+                button:hover {
+                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+                
+                }
+
+            }
+       
             
             #menuToggler {
                 
@@ -58,34 +87,33 @@
         </style>
 
     </head>
-    <body style="background: #f1f1f1">
+    <body>
 
         <div id="navbar">
 
 
             <div>
-                <a href="index.html"><img id="logo" src="images/logo.png" alt="my awesome logo"></a>
+                <a href="index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
 
             </div>
 
             <div class="menuItems">
 
                 <div class="menuItemsOne">
-                    <a href="index.html">Home</a>
+                    <a class="inactive" href="index.html">Home</a>
 
                 </div>
 
                 <div class="menuItemsTwo">
                     <a class="inactive" href="projects.html">Projects</a>
-
                 </div>
 
                 <div class="menuItemsThree">
-                    <a class="inactive" href="blog.html">Blog</a>
+                    <a href="blog.html">Blog</a>
 
                 </div>
                 <div class="menuItemsFour">
-                    <a class="inactive" href="#me">About</a>
+                    <a class="inactive" href="about.html">About</a>
 
                 </div>
                 <div id="socials">
@@ -104,100 +132,142 @@
                         <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
-               
 
             </div>
             
             <i class="fas fa-bars" id="menuToggler"></i>
-    
+
         </div>
 
-
-
-        <script src="animation.js" charset="utf-8"></script>
-        
-        <div style="height: 80vh"></div>
-
-
-        <div class="container text" style="padding-bottom: 5rem;" id="#me">
-          <div class="row" style="padding-top: 5rem; padding-bottom: 1rem; left: 5rem; right: 5rem;">
-            <div class="col">
-                <p id="aboutText">
-                    Hi, I'm Gaurav Bhalla and this is my personal website. Here, you can find a few of my projects and my blog. I have a keen interest in politics and economics alongside philosophy.
-                    In order to further pursue these interests, I read widely and make sure to follow both local and global news.
-                </p>
-            </div>
-          </div>
-          <div class="row" style="padding-top: 0rem; bottom: 0;">
-            <div class="col">
-                <p id="aboutText">
-                    I also take part in Model UN, I began only a few months ago and have taken part
-                    in two weekend conferences, being a commended delegate in the first and highly commended in the second. I'm aiming
-                    to win outstanding delegate at my next conference.
-                </p>
-                <p id="aboutText">
-                    I'm also interested in maths, although I prefer algebra over geometry. I like maths because of how each step follows on
-                    from the previous with logic, you can work things out from reasoning alone.
-                </p>
-                <p id="aboutText">
-                    - Gaurav Bhalla
-                </p>
-            </div>
-          </div>
-        </div> 
-                                 
-       <div class="spacer"></div>
-        <section id="intro" class="text">
-
-            <p class="title"> Recent blog posts </p>
-        </section>
-        
-        <table class="project">
-
-                      <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/shipOfTheseus.jpg"></td>
-                          <td class="projectCaption"><p> How does the ship of Theseus paradox link to identity? - full article </p>
-                            <p> <a class="linkInText" href="blogPosts/shipOfTheseus.html"> Continue reading </a> </p></td>
-
-            </table>
-        
+        <div class="container-fluid">
+            <div class="row">
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3> International Organisations </h3>
+                            <h6> An article discussing the role of IOs</h6>
+                            <p> And exploring different arguments </p>
+                            <p>19<sup>th</sup> May 2021</p>
+                            <button onclick="location.href='blogPosts/IOs.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3> Congestion </h3>
+                            <h6>An article discussing congestion</h6>
+                            <p>From an economic lens</p>
+                            <p>12<sup>th</sup> May 2021</p>
+                            <button onclick="location.href='blogPosts/congestion.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>Ship of Theseus and identity </h3>
+                            <h6>The full article discussing the ship of Theseus paradox</h6>
+                            <p>And its implications on identity</p>
+                            <p>10<sup>th</sup> May 2021</p>
+                            <button onclick="location.href='blogPosts/shipOfTheseus.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>Ship of Theseus and identity (Abridged)</h3>
+                            <h6>An article discussing the ship of Theseus paradox</h6>
+                            <p>And its implications on identity</p>
+                            <p>5<sup>th</sup> May 2021</p>
+                            <button onclick="location.href='blogPosts/shipOfTheseusShort.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>Volatility in primary/service sector economies</h3>
+                            <h6>An article discussing factors affecting economic volatility</h6>
+                            <p>In 1998, Russia had a short burst of economic growth, fuelled by high oil prices. Why didn't it last?</p>
+                            <p>25<sup>th</sup> March 2021</p>
+                            <button onclick="location.href='blogPosts/economicVolatility.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>Regulations and economic growth</h3>
+                            <h6>An essay discussing the effect of regulation on economic growth</h6>
+                            <p>Question from Young Economist of the Year competition</p>
+                            <p>23<sup>rd</sup> February 2021</p>
+                            <button onclick="location.href='blogPosts/environmentAndEconomy.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>An Armchair Economist</h3>
+                            <h6>By Steven Landsburg</h6>
+                            <p>An armchair review</p>
+                            <p>24<sup>th</sup> April 2020</p>
+                            <button onclick="location.href='blogPosts/anArmchairEconomist.html'" type="button">Read</button>
+                        </div>
+                </div>
             
+                
+                <div class="col-md-6">
+                        <div class="card card-default">
+                            <h3>Political Thinking</h3>
+                            <h6>A very Short Introduction</h6>
+                            <p>By David Miller</p>
+                            <p>12<sup>th</sup> April 2020</p>
+                            <button onclick="location.href='blogPosts/politicalThinking.html'" type="button">Read</button>
+                        </div>
+                </div>
+                
+                <div class="col-md-6">
+                    <div class="card card-default">
+                        <h3>Projects - CS</h3>
+                        <h6>My computer science projects</h6>
+                        <p>Finishing documentation</p>
+                        <p>28<sup>th</sup> March 2020</p>
+                        <button onclick="location.href='projects.html'" type="button">Read</button>
+                    </div>
+                </div>
+                    
+                <div class="col-md-6">
+                    <div class="card card-default">
+                        <h3>OOP</h3>
+                        <h6>Object Oriented Programming</h6>
+                        <p>Why it's important</p>
+                        <p>27<sup>th</sup> March 2020</p>
+                        <button onclick="location.href='blogPosts/oop.html'" type="button">Read</button>
+                    </div>
+                </div>
+                
+                
+                
+        </div>
+
+       <!-- 
+        <section class="intro text documentation">
+
+            <p class="title"> Under review </p>
+            
+        </section>
+        -->
         
-            <table class="project">
+        <div class="spacer">
+        </div>
+        <div class="spacer">
+        </div>
 
-                      <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/shipOfTheseusShort.jpg"></td>
-                          <td class="projectCaption"><p> How does the ship of Theseus paradox link to identity? </p>
-                            <p> <a class="linkInText" href="blogPosts/shipOfTheseusShort.html"> Continue reading </a> </p></td>
+        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
 
-            </table>
-        
-        <table class="project">
-
-                      <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/economicvolatility.jpg"></td>
-                          <td class="projectCaption"><p> Why did Russia's 1998 economic boom fuelled by oil prices not last? </p>
-                            <p> <a class="linkInText" href="blogPosts/economicVolatility.html"> Continue reading </a> </p></td>
-
-            </table>
-        
-            <table class="project" style="padding-bottom: 8rem">
-
-                      <tr>
-                        <td class="imageHolder"><img class="projectThumbnail" src="blogPosts/images/environmentAndEconomy.jpg"></td>
-                          <td class="projectCaption"><p> The impact of environmental regulations on the economy </p>
-                            <p> <a class="linkInText" href="blogPosts/environmentAndEconomy.html"> Continue reading </a> </p></td>
-
-            </table>
-                       
-
-        <footer id="about" style="right: 0; left: 0; min-width: 100vw !important; max-width: 100vw !important; padding-left: 5rem; padding-bottom: 1rem;bottom: 0 !important; background-color: #00395f !important">
-
-            <p id='footerText'> Click anywhere to play snake! </p>
+            <p id='footerText'> Follow my twitter for updates when I post </p>
 
         </footer>
+
         <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
          <script>
              
@@ -224,18 +294,11 @@
                     };
                 });
         </script>
-
-        <script type="text/javascript">
             
-            ScrollReveal({ reset: false, delay: 500, duration: 800 });
-            ScrollReveal().reveal('.project');
-            ScrollReveal().reveal('.text');
             
-            window.onscroll = function() {changeText()};
-            function changeText() {
-                document.getElementById("footerText").innerHTML = "Follow my twitter for updates when I post";
-            }
-      
+        <script>
+            ScrollReveal({ delay: 500, duration: 1200 });
+            ScrollReveal().reveal('.row');
         </script>
 
     </body>
