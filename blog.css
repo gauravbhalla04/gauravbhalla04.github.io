@@ -31,7 +31,8 @@ margin: 3rem;
 .card {
   background-color: #2d2929;
   color: #ececec;
-  border: 0;
+  border: none !important;
+  margin: 1rem;
 }
 
 .card-body {
