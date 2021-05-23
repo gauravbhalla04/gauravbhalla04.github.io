@@ -15,9 +15,9 @@ margin: 3rem;
   color: #2D2929;
 }
 
-.btn btn-primary {
+.card-link {
   font-family: Sen !important;
-  background-color: #00395f;
+  text-decoration: none!important;
 }
 
 .card-title {
@@ -25,13 +25,13 @@ margin: 3rem;
 }
 
 .card {
-  background-color: #2d2929;
-  color: #ececec;
+  background-color: #dadada;
+  color: #2d2929;
   border: none !important;
   margin: 1rem;
 }
 
 .card-body {
   border: 0;
-  background-color: #2d2929;
+  background-color: #dadada;
 }
