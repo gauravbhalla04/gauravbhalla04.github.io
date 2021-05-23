@@ -16,7 +16,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-
+margin: 3rem;
   color: #ECECEC;
 }
 
@@ -31,4 +31,5 @@ body {
 .card {
   background: #2d2929;
   color: #ececec;
+  border: 0;
 }
