@@ -1,7 +1,7 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+<!doctype html>
+<html>
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -10,296 +10,140 @@
 
           gtag('config', 'UA-152787238-3');
         </script>
+<meta charset="UTF-8">
+<title> Home </title>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="blog.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	
+</head>
+	
+	
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="Gaurav Bhalla's blog">
-        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
-        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="author" content="Gaurav Bhalla">
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
-
-
-        <title> Gaurav Bhalla's blog </title>
-
-        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-
-        <link rel="stylesheet" href="main.css">
-
-        <style>
-
-
-            button {
-            transition-duration: 0.4s;
-            background-color: #00395f;
-            color: white;
-            box-shadow: none;
-            border: none;
-            padding: 5px 1rem;
-            width: 15%;
-            border-radius: 5px;
-            }
-
-            button:hover {
-                box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-            
-            }
-            @media (min-width: 320px) and (max-width: 480px) {
-
-                button {
-                transition-duration: 0.4s;
-                background-color: #00395f;
-                color: white;
-                box-shadow: none;
-                border: none;
-                padding: 0.5rem;
-                width: 40%;
-                border-radius: 5px;
-                }
-
-                button:hover {
-                    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-                
-                }
-
-            }
-       
-            
-            #menuToggler {
-                
-                display: none;
-                color: white;
-                float: right;
-                font-size: 1.5rem;
-                padding-right: 1rem;
-                padding-top: 0rem;
-                margin-top: -1.75rem;
-            }
-            
-            
-        </style>
-
-    </head>
-    <body>
-
-        <div id="navbar">
-
-
-            <div>
-                <a href="index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
-
-            </div>
-
-            <div class="menuItems">
-
-                <div class="menuItemsOne">
-                    <a class="inactive" href="index.html">Home</a>
-
-                </div>
-
-                <div class="menuItemsTwo">
-                    <a class="inactive" href="projects.html">Projects</a>
-                </div>
-
-                <div class="menuItemsThree">
-                    <a href="blog.html">Blog</a>
-
-                </div>
-                <div class="menuItemsFour">
-                    <a class="inactive" href="about.html">About</a>
-
-                </div>
-                <div id="socials">
-
-                    <div class="socialsOne">
-
-                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
-
-                    </div>
-
-                    <div class="socialsTwo">
-                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
-                    </div>
-
-                    <div class="socialsThree">
-                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            
-            <i class="fas fa-bars" id="menuToggler"></i>
-
-        </div>
-
-        <div class="container-fluid">
+<body>
+	<div style="background-color: #598ea6; padding: 2rem">
+		<p class="title">The Economic Post</p>
+	</div>
+	
+	
+	<div class="container-fluid">
             <div class="row">
                 
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3> International Organisations </h3>
-                            <h6> An article discussing the role of IOs</h6>
-                            <p> And exploring different arguments </p>
-                            <p>19<sup>th</sup> May 2021</p>
-                            <button onclick="location.href='blogPosts/IOs.html'" type="button">Read</button>
-                        </div>
+                <div class="col-md-4">
+			<div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">International organisations</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">19th May 2021</h6>
+			    <p class="card-text">There are many international organisations (IOs) in the modern world, some are focused on peacekeeping such as the UN, others have a more economic purpose such as the IMF, WTO and World Bank...</p>
+			    <a href="blogPosts/IOs.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
                 
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3> Congestion </h3>
-                            <h6>An article discussing congestion</h6>
-                            <p>From an economic lens</p>
-                            <p>12<sup>th</sup> May 2021</p>
-                            <button onclick="location.href='blogPosts/congestion.html'" type="button">Read</button>
-                        </div>
+                <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Congestion</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">12th May 2021</h6>
+			    <p class="card-text">Congestion is an issue that affects many cities and towns in first world countries. A prime example, and the one I will focus on today, is London. London, like many other major cities, is a sprawling...</p>
+			    <a href="blogPosts/congestion.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
                 
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>Ship of Theseus and identity </h3>
-                            <h6>The full article discussing the ship of Theseus paradox</h6>
-                            <p>And its implications on identity</p>
-                            <p>10<sup>th</sup> May 2021</p>
-                            <button onclick="location.href='blogPosts/shipOfTheseus.html'" type="button">Read</button>
-                        </div>
+                <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Ship of Theseus and identity</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">10th May 2021</h6>
+			    <p class="card-text">It’s the 1500s and you’re out exploring the high seas in a wooden ship. You’re walking along the upper deck, and to your horror you spot a rotting plank on the side! You scramble to get it replaced, and...</p>
+			    <a href="blogPosts/shipOfTheseus.html" class="card-link">Read more</a>
+			  </div>
+			</div>
+                </div>
+		    
+		<div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Ship of Theseus (Abridged)</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">5th May 2021</h6>
+			    <p class="card-text">The Ship of Theseus is a famous philosophical paradox, one that’s very important to consider. A short summary is this: if you start with a ship, and gradually replace each plank with a new plank due to...</p>
+			    <a href="blogPosts/shipOfTheseusShort.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
                 
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>Ship of Theseus and identity (Abridged)</h3>
-                            <h6>An article discussing the ship of Theseus paradox</h6>
-                            <p>And its implications on identity</p>
-                            <p>5<sup>th</sup> May 2021</p>
-                            <button onclick="location.href='blogPosts/shipOfTheseusShort.html'" type="button">Read</button>
-                        </div>
+		   <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Volatility in economies</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">25th March 2021</h6>
+			    <p class="card-text">In 1998, Russia had a short burst of economic growth, fuelled by high oil prices, among other factors such as the devaluation of the currency to make their exports more competitively priced. However, as...</p>
+			    <a href="blogPosts/economicVolatility.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
-                
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>Volatility in primary/service sector economies</h3>
-                            <h6>An article discussing factors affecting economic volatility</h6>
-                            <p>In 1998, Russia had a short burst of economic growth, fuelled by high oil prices. Why didn't it last?</p>
-                            <p>25<sup>th</sup> March 2021</p>
-                            <button onclick="location.href='blogPosts/economicVolatility.html'" type="button">Read</button>
-                        </div>
+		    
+		    <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Regulations and economic growth</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">23rd February 2021</h6>
+			    <p class="card-text">Bringing down greenhouse emissions to net zero is not an easy task, requiring extensive regulation to encourage businesses to shift away from environmentally unfriendly products and raw materials...</p>
+			    <a href="blogPosts/environmentAndEconomy.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
-                
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>Regulations and economic growth</h3>
-                            <h6>An essay discussing the effect of regulation on economic growth</h6>
-                            <p>Question from Young Economist of the Year competition</p>
-                            <p>23<sup>rd</sup> February 2021</p>
-                            <button onclick="location.href='blogPosts/environmentAndEconomy.html'" type="button">Read</button>
-                        </div>
+		    
+		    <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">An Armchair economist</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">24th April 2020</h6>
+			    <p class="card-text">This book is of a moderate length, covering topics that the public usually has a fixed opinion about, such as unemployment - which is generally considered a negative effect of a poor economy. It then...</p>
+			    <a href="blogPosts/anArmchairEconomist.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
-                
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>An Armchair Economist</h3>
-                            <h6>By Steven Landsburg</h6>
-                            <p>An armchair review</p>
-                            <p>24<sup>th</sup> April 2020</p>
-                            <button onclick="location.href='blogPosts/anArmchairEconomist.html'" type="button">Read</button>
-                        </div>
+		    
+		    <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Political philosophy</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">12th April 2020</h6>
+			    <p class="card-text">This is a fairly short book, it’s seven chapters and about 130 pages. In that, however, it contains a great wealth of information and is densely packed with unbiased insights into key questions that form...</p>
+			    <a href="blogPosts/politicalThinking.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
-            
-                
-                <div class="col-md-6">
-                        <div class="card card-default">
-                            <h3>Political Thinking</h3>
-                            <h6>A very Short Introduction</h6>
-                            <p>By David Miller</p>
-                            <p>12<sup>th</sup> April 2020</p>
-                            <button onclick="location.href='blogPosts/politicalThinking.html'" type="button">Read</button>
-                        </div>
+		    
+		    <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Projects CS</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">28th March 2020</h6>
+			    <p class="card-text">This is a page for all my projects, it includes a brief documentation about the project. I hope you find this interesting, and are able to get something useful from this page...</p>
+			    <a href="projects.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
-                
-                <div class="col-md-6">
-                    <div class="card card-default">
-                        <h3>Projects - CS</h3>
-                        <h6>My computer science projects</h6>
-                        <p>Finishing documentation</p>
-                        <p>28<sup>th</sup> March 2020</p>
-                        <button onclick="location.href='projects.html'" type="button">Read</button>
-                    </div>
-                </div>
-                    
-                <div class="col-md-6">
-                    <div class="card card-default">
-                        <h3>OOP</h3>
-                        <h6>Object Oriented Programming</h6>
-                        <p>Why it's important</p>
-                        <p>27<sup>th</sup> March 2020</p>
-                        <button onclick="location.href='blogPosts/oop.html'" type="button">Read</button>
-                    </div>
+		    
+		    <div class="col-md-4">
+                        <div class="card">
+			  <div class="card-body">
+			    <h3 class="card-title">Object oriented programming</h3>
+			    <h6 class="card-subtitle mb-2 text-muted">27th March 2020</h6>
+			    <p class="card-text">Many programmers will be familiar with the term "Object Oriented Programming" (OOP), and many will know what this refers to. However, there are also plenty of beginners implementing OOP unknowingly. OOP is...</p>
+			    <a href="blogPosts/oop.html" class="card-link">Read more</a>
+			  </div>
+			</div>
                 </div>
                 
                 
                 
         </div>
-
-       <!-- 
-        <section class="intro text documentation">
-
-            <p class="title"> Under review </p>
-            
-        </section>
-        -->
-        
-        <div class="spacer">
-        </div>
-        <div class="spacer">
-        </div>
-
-        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
-
-            <p id='footerText'> Follow my twitter for updates when I post </p>
-
-        </footer>
-
-        <script src="https://unpkg.com/scrollreveal"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
-         <script>
-             
-                 $(document).ready(function() {
-                    var $window = $(window);
-                    var $menuToggler = $('#menuToggler');
-                    var $menuItems = $('.menuItems');
-                    var $logo = $('#logo');
-                     
-                    function checkWidth() {
-                        var windowsize = $window.width();
-                        if (windowsize < 480) {
-                            $menuToggler.css("display", "inline");
-                            $menuItems.css("display", "none");
-                            $logo.css("max-width", "100rem");
-                            $logo.css("width", "10rem");
-                            
-                        }
-                    }
-                    checkWidth();
-                    $(window).resize(checkWidth);
-                     document.getElementById("menuToggler").onclick = function () {
-                        location.href = "https://gauravbhalla.co.uk/menu.html";
-                    };
-                });
-        </script>
-            
-            
-        <script>
-            ScrollReveal({ delay: 500, duration: 1200 });
-            ScrollReveal().reveal('.row');
-        </script>
-
-    </body>
+	</div>
+	
+</body>
 </html>
