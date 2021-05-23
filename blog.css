@@ -29,7 +29,12 @@ margin: 3rem;
 }
 
 .card {
-  background: #2d2929;
+  background-color: #2d2929;
   color: #ececec;
   border: 0;
+}
+
+.card-body {
+  border: 0;
+  background-color: #2d2929;
 }
