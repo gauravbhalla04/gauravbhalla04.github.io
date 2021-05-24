@@ -34,7 +34,7 @@ body {
 }
 
 .blogPic {
-    max-width: 100%;
+    max-width: 80%;
     right: 10%;
     left: 10%;
 }
@@ -61,6 +61,15 @@ body {
 .navLinks {
   text-decoration: none !important;
   font-size: 1.3vw;
+}
+  .blogPic {
+    max-width: 100%;
+    right: 10%;
+    left: 10%;
+}
+
+.blogPicContainer {
+    width: 100%;
 }
 
 }
