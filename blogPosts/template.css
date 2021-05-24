@@ -6,10 +6,17 @@ body {
   font-family: Sen;
   font-style: normal;
   font-weight: bold;
-  font-size: 48px;
-  line-height: 87px;
+  font-size: 1.875vw;
+  line-height: 1.898vw;
   display: flex;
   align-items: center;
   text-align: center;
   color: #2D2929;
+  margin-left: 1.875vw;
 }
+/*
+@media screen and (max-widt: 1024px) {
+  .title {
+    font-size: 1.875vw;
+  }
+}*/
