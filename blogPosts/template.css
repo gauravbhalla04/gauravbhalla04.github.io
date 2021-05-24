@@ -87,13 +87,13 @@ body {
   font-size: 1.3vw;
 }
   .blogPic {
-    max-width: 100%;
+    width: 100% !important;
     right: 10%;
     left: 10%;
 }
 
 .blogPicContainer {
-    width: 100%;
+    width: 100%!important;
 }
 
 }
