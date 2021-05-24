@@ -16,6 +16,7 @@ a {
   font-style: normal;
   font-weight: normal;
     margin-left: 1vw;
+  color: #2D2929;
 
 }
 .navLinks {
@@ -24,6 +25,8 @@ a {
   font-style: normal;
   font-weight: normal;
     margin-left: 1vw;
+    color: #2D2929;
+
 
 }
 /* 
@@ -36,6 +39,8 @@ a {
   font-size: 1.047vw;
   line-height: 3.672vw;
   margin-left: 1vw;
+    color: #2D2929;
+
 }
 
 .container {
@@ -87,6 +92,8 @@ a {
   .text {
   font-family: Sen;
   font-style: normal;
+      color: #2D2929;
+
   font-weight: normal;
   font-size: 3.27vw;
   line-height: 3.672vw;
@@ -95,6 +102,8 @@ a {
 a {
   text-decoration: none;
   font-family: Sen;
+    color: #2D2929;
+
   font-style: normal;
   font-weight: normal;
     margin-left: 1vw;
@@ -104,6 +113,8 @@ a {
   text-decoration: none !important;
   font-size: 1.3vw;
   font-style: normal;
+    color: #2D2929;
+
   font-weight: normal;
     margin-left: 1vw;
 
