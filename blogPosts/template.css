@@ -89,15 +89,15 @@ a {
   font-size: 4.3vw;
 }
   .blogPic {
-    width: 100% !important;
-    right: 10%;
-    left: 10%;
+    width: 100vw !important;
+    right: 0%;
+    left: 0%;
     float: none;
 }
 
 .blogPicContainer {
   float: none;
-    width: 100% !important;
+    width: 100vw !important;
 }
 
 }
