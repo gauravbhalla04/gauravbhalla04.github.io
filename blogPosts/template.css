@@ -77,23 +77,25 @@ body {
   font-family: Sen;
   font-style: normal;
   font-weight: normal;
-  font-size: 2.547vw;
+  font-size: 3.27vw;
   line-height: 3.672vw;
   margin-left: 1vw;
 }
 
 .navLinks {
   text-decoration: none !important;
-  font-size: 1.3vw;
+  font-size: 4.3vw;
 }
   .blogPic {
     width: 100% !important;
     right: 10%;
     left: 10%;
+    float: none;
 }
 
 .blogPicContainer {
-    width: 100%!important;
+  float: none;
+    width: 100% !important;
 }
 
 }
