@@ -20,11 +20,14 @@ a {
 
 }
 .navLinks {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
   text-decoration: none !important;
   font-size: 1.3vw;
   font-style: normal;
   font-weight: normal;
-    margin-left: 1vw;
     color: #2D2929;
 
 
@@ -114,7 +117,10 @@ a {
   font-size: 1.3vw;
   font-style: normal;
     color: #2D2929;
-
+position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -25px 0 0 -25px;
   font-weight: normal;
     margin-left: 1vw;
 
