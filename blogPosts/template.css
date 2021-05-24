@@ -10,7 +10,9 @@ body {
   top: 0;
   background-color: #CED9B9;
 }
-
+a {
+  text-decoration: none;
+  font-family: Sen;
 .navLinks {
   text-decoration: none !important;
   font-size: 1.3vw;
