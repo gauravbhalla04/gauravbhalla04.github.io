@@ -8,7 +8,7 @@ body {
   position: fixed;
   bottom: 0;
   top: 0;
-  background-color: CED9B9;
+  background-color: #CED9B9;
 }
 
 .navLinks {
@@ -68,7 +68,7 @@ body {
   position: fixed;
   bottom: 0;
   top: 0;
-  background-color: CED9B9;
+  background-color: #CED9B9;
 }
   .text {
   font-family: Sen;
