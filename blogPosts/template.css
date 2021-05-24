@@ -14,9 +14,9 @@ body {
   color: #2D2929;
   margin-left: 1.875vw;
 }
-/*
+
 @media screen and (max-widt: 1024px) {
   .title {
-    font-size: 1.875vw;
+    font-size: 2.875vw;
   }
-}*/
+}
