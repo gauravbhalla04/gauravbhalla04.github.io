@@ -6,12 +6,11 @@ body {
   font-family: Sen;
   font-style: normal;
   font-weight: bold;
-  font-size: 72px;
+  font-size: 48px;
   line-height: 87px;
   display: flex;
   align-items: center;
   text-align: center;
-margin: 3rem;
   color: #2D2929;
 }
 
