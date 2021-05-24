@@ -92,7 +92,7 @@ a {
     font-size: 5.875vw;
   }
   .sidebar {
-    /*visibility: hidden;*/
+    visibility: hidden;
   width: 70vw;
   position: fixed;
   bottom: 0;
