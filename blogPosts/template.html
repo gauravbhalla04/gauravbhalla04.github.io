@@ -17,6 +17,8 @@
     <body>
       <div id="sidebar" class="animate-left">
         <div class="nav">
+          <a class="navs" onclick="close()"><p class="navLinks">Close &times;</p></button>
+
           <a class="navs" href="#"><p class="navLinks">Home</p></a>
           <br />
           <a class="navs" href="#"
@@ -182,22 +184,12 @@
       </div>
 
       <script>
-        /*function open(inc) {
-          var width;
-          width = inc.toString() + "vw";
-          document.getElementById("sidebar").style.width = width;
-          document.getElementById("container").style.marginLeft = width;
-        }*/
+        function close() {
+          document.getElementById("sidebar").style.display = "none";
+
+        }
 
         function openNav() {
-          /*
-          var i;
-          i = 0;
-          while (i < 71) {
-            setTimeout(open(i), 100);
-            i += 1;
-            console.log('hi');
-          }*/
           document.getElementById("sidebar").style.display = "block";
           
         }
