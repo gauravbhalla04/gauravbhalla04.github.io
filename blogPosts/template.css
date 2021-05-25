@@ -103,8 +103,8 @@ a {
     line-height: 7vw;
   }
   .sidebar {
-    visibility: hidden;
-  width: 70vw;
+    visibility: visible;
+  width: 0;
   position: fixed;
   bottom: 0;
   top: 0;
