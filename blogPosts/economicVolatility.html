@@ -1,290 +1,296 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-          gtag('config', 'UA-152787238-3');
-        </script>
+      gtag("config", "UA-152787238-3");
+    </script>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="Gaurav Bhalla's review of An Armchair Economist">
-        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
-        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog, economics, politics, philosophy, article, volatily, economy, primary sector, service sector, Nigeria, Russia">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="author" content="Gaurav Bhalla">
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="Gaurav Bhalla's review of An Armchair Economist"
+    />
+    <meta
+      name="description"
+      content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!"
+    />
+    <meta
+      name="keywords"
+      content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Gaurav Bhalla" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="template.css" />
 
-        <title> Gaurav Bhalla's Blog </title>
+    <link
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
 
-        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+  <body onresize="checknav()">
+    <div id="sidebar">
+      <div class="nav">
+        <p class="navs" id="close">
+          <span
+            class="navs"
+            style="font-size: 7vw"
+            ;
+            onclick="document.getElementById('sidebar').style.marginLeft = '-70vw';"
+            >&times;</span
+          >
+        </p>
 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <a class="navs" href="https://gauravbhalla.co.uk/index.html"
+          ><p class="navLinks">Home</p></a
+        >
+        <br />
+        <a class="navs" href="https://gauravbhalla.co.uk/blog.html"
+          ><p style="color: #2D2929" class="navLinks">Blog</p></a
+        >
+        <br />
+        <a class="navs" href="https://twitter.com/GauravBhalla_04"
+          ><p class="navLinks">Twitter</p></a
+        >
+      </div>
+    </div>
 
+    <div id="container">
+      <div style="background-color: #598ea6; padding: 1rem">
+        <p class="title">
+          Primary vs service sector economies' volatility
+          <span
+            class="menu"
+            onclick="openNav()"
+            style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+            >☰</span
+          >
+        </p>
+      </div>
 
-        <link rel="stylesheet" href="main.css">
-        
-        
-<style>
-            
-            #menuToggler {
-                
-                display: none;
-                color: white;
-                float: right;
-                font-size: 1.5rem;
-                padding-right: 1rem;
-                padding-top: 0rem;
-                margin-top: -1.75rem;
-            }
-            
-            
-        </style>
+      <div class="blogPicContainer">
+        <img class="blogPic" src="images/economicVolatility.jpg" />
+      </div>
 
-    </head>
-    <body>
-
-        <div id="navbar">
-
-
-            <div>
-                <a href="https://gauravbhalla.co.uk/index.html"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
-
-            </div>
-
-            <div class="menuItems">
-
-                <div class="menuItemsOne">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/index.html">Home</a>
-
-                </div>
-
-                <div class="menuItemsTwo">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/projects.html">Projects</a>
-
-                </div>
-
-                <div class="menuItemsThree">
-                    <a href="https://gauravbhalla.co.uk/blog.html">Blog</a>
-
-                </div>
-                <div class="menuItemsFour">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/about.html">About</a>
-
-                </div>
-                <div id="socials">
-
-                    <div class="socialsOne">
-
-                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
-
-                    </div>
-
-                    <div class="socialsTwo">
-                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
-                    </div>
-
-                    <div class="socialsThree">
-                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            
-            <i class="fas fa-bars" id="menuToggler"></i>
-
-
-        </div>
-
-        <h1 class="title text">Primary vs service sector economies' volatility</h1>
-
-
-        <div class="container">
-
-          <div class="row text">
-              <div class="col" class="blogPicContainer">
-                  <img class="blogPic" src="images/economicvolatility.jpg">
-              </div>
-
-          </div>
-          <div class="spacer"> </div>
-            <div class="row text">
-            <div class="col">
-
+      <div class="text">
                 <p>
+          In 1998, Russia had a short burst of economic growth, fuelled by high oil
+          prices, among other factors such as the devaluation of the currency to make
+          their exports more competitively priced. However, as oil prices fluctuated so
+          did Russia’s economy due to the deindustrialisation leaving it highly
+          dependent on oil <sup>[1]</sup>. Russia is not the only country to have
+          experienced this, countries with economies heavily dependent on the primary
+          sector tend to have much more volatile economies - high economic growth at
+          times and deeper recessions at others. But why is this so? Is there something
+          else at play that just happens to correlate with the primary and service
+          sector economies which causes these growth patterns or is it caused by the
+          economic sectors themselves? But what even is a primary sector dependent
+          economy? Or a service sector dependent economy?
+        </p>
 
-                            In 1998, Russia had a short burst of economic growth, fuelled by high oil prices, among other factors such as the devaluation of the 
-                    currency to make their exports more competitively priced. However, as oil prices fluctuated so did Russia’s economy due to the 
-                    deindustrialisation leaving it highly dependent on oil <sup>[1]</sup>. Russia is not the only country to have experienced this, countries 
-                    with economies heavily dependent on the primary sector tend to have much more volatile economies - high economic growth at times and deeper 
-                    recessions at others. But why is this so? Is there something else at play that just happens to correlate with the primary and service sector 
-                    economies which causes these growth patterns or is it caused by the economic sectors themselves? But what even is a primary sector dependent 
-                    economy? Or a service sector dependent economy? 
+        <p>
+          The first thing to consider is how small fluctuations in demand can affect the
+          price of exporting raw materials, and thus the profits made by companies in
+          primary sector dependent economies. The price elasticity of demand (PED) of
+          raw materials is very high (meaning that the responsiveness of price to
+          changes in quantity is very high - making the curve very steep) since they are
+          necessary for producing any goods in the secondary sector and therefore to
+          fuel the tertiary sector. Commodities such as oil especially are indispensable
+          with almost no substitutes (although with more renewable energy, this is
+          likely to change), thus making these commodities very price inelastic.
+          Furthermore, it isn’t easy to quickly increase production, and often there
+          aren’t large reserves of them due to either their perishable nature or a lack
+          of infrastructure to allow for the storage of large quantities. This leads to
+          the supply for them being very price inelastic too. Both of these are
+          reflected in the diagram below.
+        </p>
+        <br />
 
-                        </p>
-                        <br>
-                        <p>
-                        The first thing to consider is how small fluctuations in demand can affect the price of exporting raw materials, and thus the profits made
-                            by companies in primary sector dependent economies. The price elasticity of demand (PED) of raw materials is very high (meaning that
-                            the responsiveness of price to changes in quantity is very high - making the curve very steep) since they are necessary for producing
-                            any goods in the secondary sector and therefore to fuel the tertiary sector. Commodities such as oil especially are indispensable 
-                            with almost no substitutes (although with more renewable energy, this is likely to change), thus making these commodities very price 
-                            inelastic. Furthermore, it isn’t easy to quickly increase production, and often there aren’t large reserves of them due to either 
-                            their perishable nature or a lack of infrastructure to allow for the storage of large quantities. This leads to the supply for them
-                            being very price inelastic too. Both of these are reflected in the diagram below.
-                        </p>
-                        <br>
-                        <div class="col" class="blogPicContainer">
-                  <img class="blogPic" src="images/diagramone.png">
-              </div>
-              <br>
-              <p>
-              As we can see, even a small fall in demand results in a significant fall in price (P1 -> P2), but the fall in quantity is minuscule in comparison
-                  (Q1 -> Q2). This means that the costs of firms in primary sector dependent economies don’t fall by much, as the cost to extract materials hasn’t
-                  fallen much per unit and units only decrease slightly (C = P x Units produced). However, the revenue of these firms will have fallen significantly
-                  due to the large fall in price (R = P x Units sold) and therefore so would their profits (P = R- C). Due to lower profits, the government will
-                  earn less revenue through a tax on these firms. Therefore, government expenditure would have to be reduced. Furthermore, the (Export - Import)
-                  part of aggregate demand (AD) would fall as export revenue falls due to plummeting prices. This is a direct blow to AD, as AD = Consumption + Investment + 
-                  Government expenditure + (Exports - Imports). A country that was caught in this trap during the COVID 19 pandemic was Nigeria, in November 2020. Due 
-                  to falling oil prices in 2020, and more than 80% of Nigeria’s export industry relying on oil, private investment and government revenue fell sharply, 
-                  the latter dropping from 8% to 5% of GDP in a time when fiscal stimulus is desperately needed. However, due to recessions in other countries, those who
-                  lived abroad and sent money home to family in Nigeria were able to send less money than usual, leading to lower consumer spending. The effects of falling
-                  GDP and therefore GDP/capita were noted: there was a rise of 2.4% in poverty, meaning fewer people were able to afford necessary goods and services - such
-                  as food <sup>[2]</sup>. This would exacerbate the strain on the government, as the health of those most affected by increased poverty may limit their
-                  involvement in the economy in the future, hampering the recovery efforts. This means that the Nigerian government not only has less money to invest into
-                  infrastructure, education and healthcare which form the foundation for economic growth, but it also needs to spend money on stimulus for the economy to 
-                  limit the extent of the recession and aid recovery efforts. In summary, due to other countries being forced to reduce their demand for commodities in a 
-                  recession to save money (a beggar-thy-neighbour policy), the price inelasticity of demand and supply for commodities results in a deeper, more damaging 
-                  recession in primary sector dependent economies. In contrast, the supply for services tends to be more price elastic, since firms can easily provide a 
-                  greater quantity at short notice due to very efficient processes and the automation of a large number of tasks. Thus, fluctuations in demand don’t affect
-                  the price much.
-              </p>
-              <br>
-              <div class="col" class="blogPicContainer">
-                  <img class="blogPic" src="images/diagramtwo.png">
-              </div>
-              <br>
-              <p>
-              This means that the (X-M) component of aggregate demand for service sector dependent economies tends to be very stable, and therefore using the same chain of
-                  reasoning as used previously, their recessions are much shallower and also shorter. 
-              </p>
-              <br>
-              <p>
-              However, there are benefits to being heavily dependent on the primary sector. If we look again at the diagram but assume demand is increasing rather than
-                  falling due to economic growth in other countries, we see that the effects of demand falling are once again much more significant on price than on quantity.
-                  However, in this case, the price is rising and quantity only increases slightly. This means that while firms’ costs don’t rise significantly, their profits
-                  do. The domino chain that occurs when beggar-thy-neighbour policies are adopted is essentially reversed, and the result is high economic growth. Therefore,
-                  we can see that due to the price inelasticity of supply and demand for commodities slight fluctuations in demand can have far-reaching consequences, making
-                  the economy more volatile. However, service sector dependent economies are at a disadvantage here as the elasticity of supply means even when demand rises,
-                  price doesn’t rise significantly. Thus, their economic growth is slower even during times of prosperity globally. 
-              </p>
-              <br>
-              <p>
-              Overall, however, volatility in an economy is undesirable, as it means investors will be warier to invest money in firms in that country because there is a
-                  chance those firms may go out of business at very short notice during a recession. This means they are less safe investments. Therefore, even if service 
-                  sector economies have slower economic growth at times, their lower volatility means they are much more attractive for investors. 
-              </p>
-              <br>
-              <p>
-              However, what can be done to reduce volatility in economies depended on the primary sector, especially considering these tend to be less developed countries
-                  that aren’t self-sustaining and reliant on exporting to other countries for economic growth. Limiting fluctuations in demand is my proposed solution, as 
-                  the issue of volatility rises from small changes in demand having a large impact on the economy. This essentially means limiting the use of 
-                  beggar-thy-neighbour policies, or when those policies are implemented, finding a way to supplement demand to ensure prices don’t fall too much. This can 
-                  be done in two ways: banning beggar-thy-neighbour policies or by using global institutions to provide a stimulus that supplements demand and ensure prices
-                  don’t crash. The former would be very difficult to implement, as it would need support from the majority of countries, which are unlikely to ban so many
-                  policies that can be very effective for them in a recession. Furthermore, the policing of this would be incredibly difficult because the global institutions
-                  which may be candidates to enforce this would be countries with more economic stability and therefore less affected by beggar-thy-neighbour policies, 
-                  meaning they are unlikely to take action against policies that don’t harm them significantly. Thus, the latter is the more feasible one. There are two 
-                  candidates: the IMF and the World Bank. Since the aim of the IMF is to maintain global economic stability, I’m going to assume that the IMF is the leading
-                  candidate. The role of the IMF in a recession would essentially be to provide fiscal stimulus to countries, both those being forced to implement
-                  beggar-thy-neighbour policies and also those at the receiving end. Providing stimulus to those implementing the policies leads to them being able to limit
-                  the cuts to their imports, perhaps ruling out import decrease entirely. This limits the fall in demand. By providing fiscal stimulus to the countries on 
-                  the receiving end, the IMF allows the government to maintain revenue and also provide subsidies to firms whose profits have gone down. Thus, that limits 
-                  the contraction of aggregate demand and makes the recession less severe. However, a hurdle to providing money to the government of primary sector dependent
-                  economies is that due to the correlation between primary sector dependent economies and weaker economies, and weaker economies to corruption, there is a 
-                  risk the fiscal stimulus may not be correctly used. This means the IMF would have to oversee the use of fiscal stimulus by the governments.
-              </p>
-              <br>
-              <p>
-              In terms of concluding remarks, I would just add that many other factors affect the volatility of an economy, and I have limited my focus in this article to a
-                  specific factor that interests me. Furthermore, the IMF despite its advantages is slow to react due to the procedures involved in providing fiscal stimulus,
-                  and the damage may already be done by the time a fiscal stimulus is provided. Besides, there are also many primary sector dependent economies which means
-                  they would have to provide large sums of money, which may not be available.
-              </p>
-              <br>
-              <p>
-              Sources:
-              </p>
-              <p>
-              [1] - Globalisation and its Discontents by Joseph Stiglitz - Chapter 9  <br>
-[2] - https://www.worldbank.org/en/news/press-release/2020/06/25/nigerias-economy-faces-worst-recession-in-four-decades-says-new-world-bank-report
-  </p>
-  <br>
-              
-
-                        
-
-             </div>
-          </div>
+        <div class="blogPicContainer">
+          <img class="blogPic" src="images/diagramone.png" />
         </div>
-        
+        <br />
+        <p>
+          As we can see, even a small fall in demand results in a significant fall in
+          price (P1 -> P2), but the fall in quantity is minuscule in comparison (Q1 ->
+          Q2). This means that the costs of firms in primary sector dependent economies
+          don’t fall by much, as the cost to extract materials hasn’t fallen much per
+          unit and units only decrease slightly (C = P x Units produced). However, the
+          revenue of these firms will have fallen significantly due to the large fall in
+          price (R = P x Units sold) and therefore so would their profits (P = R- C).
+          Due to lower profits, the government will earn less revenue through a tax on
+          these firms. Therefore, government expenditure would have to be reduced.
+          Furthermore, the (Export - Import) part of aggregate demand (AD) would fall as
+          export revenue falls due to plummeting prices. This is a direct blow to AD, as
+          AD = Consumption + Investment + Government expenditure + (Exports - Imports).
+          A country that was caught in this trap during the COVID 19 pandemic was
+          Nigeria, in November 2020. Due to falling oil prices in 2020, and more than
+          80% of Nigeria’s export industry relying on oil, private investment and
+          government revenue fell sharply, the latter dropping from 8% to 5% of GDP in a
+          time when fiscal stimulus is desperately needed. However, due to recessions in
+          other countries, those who lived abroad and sent money home to family in
+          Nigeria were able to send less money than usual, leading to lower consumer
+          spending. The effects of falling GDP and therefore GDP/capita were noted:
+          there was a rise of 2.4% in poverty, meaning fewer people were able to afford
+          necessary goods and services - such as food <sup>[2]</sup>. This would
+          exacerbate the strain on the government, as the health of those most affected
+          by increased poverty may limit their involvement in the economy in the future,
+          hampering the recovery efforts. This means that the Nigerian government not
+          only has less money to invest into infrastructure, education and healthcare
+          which form the foundation for economic growth, but it also needs to spend
+          money on stimulus for the economy to limit the extent of the recession and aid
+          recovery efforts. In summary, due to other countries being forced to reduce
+          their demand for commodities in a recession to save money (a
+          beggar-thy-neighbour policy), the price inelasticity of demand and supply for
+          commodities results in a deeper, more damaging recession in primary sector
+          dependent economies. In contrast, the supply for services tends to be more
+          price elastic, since firms can easily provide a greater quantity at short
+          notice due to very efficient processes and the automation of a large number of
+          tasks. Thus, fluctuations in demand don’t affect the price much.
+        </p>
+        <br />
 
-
-
-        <div class="spacer">
+        <div class="blogPicContainer">
+          <img class="blogPic" src="images/diagramtwo.png" />
         </div>
-        <div class="spacer">
-        </div>
+        <br />
+        <p>
+          This means that the (X-M) component of aggregate demand for service sector
+          dependent economies tends to be very stable, and therefore using the same
+          chain of reasoning as used previously, their recessions are much shallower and
+          also shorter.
+        </p>
 
-        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
+        <p>
+          However, there are benefits to being heavily dependent on the primary sector.
+          If we look again at the diagram but assume demand is increasing rather than
+          falling due to economic growth in other countries, we see that the effects of
+          demand falling are once again much more significant on price than on quantity.
+          However, in this case, the price is rising and quantity only increases
+          slightly. This means that while firms’ costs don’t rise significantly, their
+          profits do. The domino chain that occurs when beggar-thy-neighbour policies
+          are adopted is essentially reversed, and the result is high economic growth.
+          Therefore, we can see that due to the price inelasticity of supply and demand
+          for commodities slight fluctuations in demand can have far-reaching
+          consequences, making the economy more volatile. However, service sector
+          dependent economies are at a disadvantage here as the elasticity of supply
+          means even when demand rises, price doesn’t rise significantly. Thus, their
+          economic growth is slower even during times of prosperity globally.
+        </p>
 
-            <p id='footerText'> Follow my twitter for updates when I post </p>
+        <p>
+          Overall, however, volatility in an economy is undesirable, as it means
+          investors will be warier to invest money in firms in that country because
+          there is a chance those firms may go out of business at very short notice
+          during a recession. This means they are less safe investments. Therefore, even
+          if service sector economies have slower economic growth at times, their lower
+          volatility means they are much more attractive for investors.
+        </p>
 
-        </footer>
+        <p>
+          However, what can be done to reduce volatility in economies depended on the
+          primary sector, especially considering these tend to be less developed
+          countries that aren’t self-sustaining and reliant on exporting to other
+          countries for economic growth. Limiting fluctuations in demand is my proposed
+          solution, as the issue of volatility rises from small changes in demand having
+          a large impact on the economy. This essentially means limiting the use of
+          beggar-thy-neighbour policies, or when those policies are implemented, finding
+          a way to supplement demand to ensure prices don’t fall too much. This can be
+          done in two ways: banning beggar-thy-neighbour policies or by using global
+          institutions to provide a stimulus that supplements demand and ensure prices
+          don’t crash. The former would be very difficult to implement, as it would need
+          support from the majority of countries, which are unlikely to ban so many
+          policies that can be very effective for them in a recession. Furthermore, the
+          policing of this would be incredibly difficult because the global institutions
+          which may be candidates to enforce this would be countries with more economic
+          stability and therefore less affected by beggar-thy-neighbour policies,
+          meaning they are unlikely to take action against policies that don’t harm them
+          significantly. Thus, the latter is the more feasible one. There are two
+          candidates: the IMF and the World Bank. Since the aim of the IMF is to
+          maintain global economic stability, I’m going to assume that the IMF is the
+          leading candidate. The role of the IMF in a recession would essentially be to
+          provide fiscal stimulus to countries, both those being forced to implement
+          beggar-thy-neighbour policies and also those at the receiving end. Providing
+          stimulus to those implementing the policies leads to them being able to limit
+          the cuts to their imports, perhaps ruling out import decrease entirely. This
+          limits the fall in demand. By providing fiscal stimulus to the countries on
+          the receiving end, the IMF allows the government to maintain revenue and also
+          provide subsidies to firms whose profits have gone down. Thus, that limits the
+          contraction of aggregate demand and makes the recession less severe. However,
+          a hurdle to providing money to the government of primary sector dependent
+          economies is that due to the correlation between primary sector dependent
+          economies and weaker economies, and weaker economies to corruption, there is a
+          risk the fiscal stimulus may not be correctly used. This means the IMF would
+          have to oversee the use of fiscal stimulus by the governments.
+        </p>
 
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
-         <script>
-             
-                 $(document).ready(function() {
-                    var $window = $(window);
-                    var $menuToggler = $('#menuToggler');
-                    var $menuItems = $('.menuItems');
-                    var $logo = $('#logo');
-                     
-                    function checkWidth() {
-                        var windowsize = $window.width();
-                        if (windowsize < 480) {
-                            $menuToggler.css("display", "inline");
-                            $menuItems.css("display", "none");
-                            $logo.css("max-width", "100rem");
-                            $logo.css("width", "10rem");
-                            
-                        }
-                    }
-                    checkWidth();
-                    $(window).resize(checkWidth);
-                     document.getElementById("menuToggler").onclick = function () {
-                        location.href = "https://gauravbhalla.co.uk/menu.html";
-                    };
-                });
-        </script>
-        
-        <script>
-            ScrollReveal({ delay: 500, duration: 1200 });
-            ScrollReveal().reveal('.project');
-            ScrollReveal().reveal('.text');
-        </script>
+        <p>
+          In terms of concluding remarks, I would just add that many other factors
+          affect the volatility of an economy, and I have limited my focus in this
+          article to a specific factor that interests me. Furthermore, the IMF despite
+          its advantages is slow to react due to the procedures involved in providing
+          fiscal stimulus, and the damage may already be done by the time a fiscal
+          stimulus is provided. Besides, there are also many primary sector dependent
+          economies which means they would have to provide large sums of money, which
+          may not be available.
+        </p>
 
-    </body>
+        <p>
+          Sources:
+        </p>
+        <p>
+          [1] - Globalisation and its Discontents by Joseph Stiglitz - Chapter 9 <br />
+          [2] -
+          https://www.worldbank.org/en/news/press-release/2020/06/25/nigerias-economy-faces-worst-recession-in-four-decades-says-new-world-bank-report
+        </p>
+        <br />
+
+
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      function close() {
+        document.getElementById("sidebar").style.marginLeft = "-70vw";
+      }
+
+      function openNav() {
+        document.getElementById("sidebar").style.marginLeft = "0";
+      }
+      function checknav() {
+        setTimeout(checkNav(), 1000);
+      }
+
+      function checkNav() {
+        if (window.innerWidth > 1200) {
+          openNav();
+        } else {
+          close();
+        }
+      }
+    </script>
+  </body>
 </html>
+
