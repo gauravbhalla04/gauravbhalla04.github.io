@@ -1,149 +1,122 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-          gtag('config', 'UA-152787238-3');
-        </script>
+      gtag("config", "UA-152787238-3");
+    </script>
 
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="title" content="Gaurav Bhalla's review of An Armchair Economist">
-        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
-        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog, economics, politics, philosophy, article, volatily, economy, environment, economic growth, regulation">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="author" content="Gaurav Bhalla">
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="title"
+      content="Gaurav Bhalla's review of An Armchair Economist"
+    />
+    <meta
+      name="description"
+      content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!"
+    />
+    <meta
+      name="keywords"
+      content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Gaurav Bhalla" />
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
 
-        <title> Environmental regulations and economic growth </title>
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="template.css" />
 
-        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
+    <link
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      rel="stylesheet"
+    />
+  </head>
 
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <body onresize="checknav()">
+    <div id="sidebar">
+      <div class="nav">
+        <p class="navs" id="close">
+          <span
+            class="navs"
+            style="font-size: 7vw"
+            ;
+            onclick="document.getElementById('sidebar').style.marginLeft = '-70vw';"
+            >&times;</span
+          >
+        </p>
 
+        <a class="navs" href="https://gauravbhalla.co.uk/index.html"
+          ><p class="navLinks">Home</p></a
+        >
+        <br />
+        <a class="navs" href="https://gauravbhalla.co.uk/blog.html"
+          ><p style="color: #2D2929" class="navLinks">Blog</p></a
+        >
+        <br />
+        <a class="navs" href="https://twitter.com/GauravBhalla_04"
+          ><p class="navLinks">Twitter</p></a
+        >
+      </div>
+    </div>
 
-        <link rel="stylesheet" href="main.css">
-        
-        <style>
-            
-            #menuToggler {
-                
-                display: none;
-                color: white;
-                float: right;
-                font-size: 1.5rem;
-                padding-right: 1rem;
-                padding-top: 0rem;
-                margin-top: -1.75rem;
-            } 
- .sources {
-color: black !important;
-text-align: left;
-}
-            
-            
-        </style>
+    <div id="container">
+      <div style="background-color: #598ea6; padding: 1rem">
+        <p class="title">
+          Will targets to bring greenhouse gas emissions in the UK to net zero by 2050 be a drag on economic growth?
+          <span
+            class="menu"
+            onclick="openNav()"
+            style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+            >☰</span
+          >
+        </p>
+      </div>
 
-    </head>
-    <body>
+      <div class="blogPicContainer">
+        <img class="blogPic" src="images/environmentAndEconomy.jpg" />
+      </div>
 
-        <div id="navbar">
-
-
-            <div>
-                <a href="https://gauravbhalla.co.uk/"><img id="logoThinkode" src="images/logo.png" style="top: 0.055rem" alt="my awesome logo"></a>
-
-            </div>
-
-            <div class="menuItems">
-
-                <div class="menuItemsOne">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/">Home</a>
-
-                </div>
-
-                <div class="menuItemsTwo">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/projects.html">Projects</a>
-
-                </div>
-
-                <div class="menuItemsThree">
-                    <a href="https://gauravbhalla.co.uk/blog.html">Blog</a>
-
-                </div>
-                <div class="menuItemsFour">
-                    <a class="inactive" href="https://gauravbhalla.co.uk/about.html">About</a>
-
-                </div>
-                <div id="socials">
-
-                    <div class="socialsOne">
-
-                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
-
-                    </div>
-
-                    <div class="socialsTwo">
-                        <a target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter"></i></a>
-                    </div>
-
-                    <div class="socialsThree">
-                        <a target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-
-            </div>
-            
-            <i class="fas fa-bars" id="menuToggler"></i>
-
-
-        </div>
-
-        <h1 class="title text">Will targets to bring greenhouse gas emissions in the UK to net zero by 2050 be a drag on economic growth?</h1>
-
-
-        <div class="container">
-
-          <div class="row text">
-              <div class="col" class="blogPicContainer">
-                  <img class="blogPic" src="images/environmentAndEconomy.jpg">
-              </div>
-
-          </div>
+      <div class="text">
+               
           
-          <div class="spacer"> </div>
-          
-            <div class="row text">
-            <div class="col">
-
                 <p>
                  Question taken from here: https://www.res.org.uk/resources-page/young-economist-of-the-year-winners-announced.html
-                    <br>
+                  
                     Photo by Singkham from Pexels
                 </p>
                 
-                <br>
+       
                 
                 <p>
                  Bringing down greenhouse emissions to net zero is not an easy task, requiring extensive regulation to encourage businesses
                  to shift away from environmentally unfriendly products and raw materials. 
                 </p>
                 
-                <br>
+                
                 
                 <p>
                  But what exactly does “net zero” mean? It means that the volume of greenhouse gas emissions is equal to the volume removed 
                  from the atmosphere. This therefore means that your net emissions are zero, because you produce and remove the same amount. 
                     </p>
-  <br>
+
                 <p>
 The primary challenge is not even bringing greenhouse gas emissions to net zero, because once there is a roadmap to net zero emissions it is 
 straightforward, rather the challenge is to make this roadmap. There are multiple ways to reduce greenhouse gas emissions to net zero, I mean
@@ -152,14 +125,14 @@ there’s the obvious approach of suddenly just not having any power stations fu
 instead, but the nuclear waste is extremely dangerous, among other issues such as the potential of a nuclear meltdown. However, for the purpose
 of this essay it is assumed that “Environmental regulations” means the abandonment of fossil fuel powered energy in an instant. 
                 </p>
-<br>
+
                 <p>
 Furthermore, what exactly is a “drag” on economic growth? Is it as simple as just slowing down economic growth? Does it only mean short term or
 long term too? If it does mean long term, then how can we reliably predict what the economic growth would’ve been like without environmental
 regulations a hundred, two hundred years after the UK becomes net zero? And regardless, even if being net zero in terms of greenhouse emissions 
 is a drag on economic growth, the trade-off is worth it. 
                 </p>
-<br>
+
                 <p>
 In addition, so far, we’ve been discussing as if the targets have actually been achieved. The targets themselves will do nothing; the effect comes 
 from actually achieving those targets. However, it will be assumed in this essay that the targets are achieved.
@@ -179,13 +152,13 @@ from actually achieving those targets. However, it will be assumed in this essay
                     </dl>
                 </p>
                 
-                <br>
+        
                 
                 <h2 class="text">
                 The impact of environmental regulation on economic growth
                 </h2>
                 
-                <br>
+       
                 
                 <p>
                     Economic growth is driven by two things: aggregate demand and aggregate supply. An increase in 
@@ -194,10 +167,10 @@ from actually achieving those targets. However, it will be assumed in this essay
                     regulation impact aggregate demand?” and “How does environmental regulation impact aggregate supply?”. 
                 </p>
                 
-                <br>
+          
                 
                 <h3 class="text"> Aggregate demand and environmental regulations </h3>
-                <br>
+        
                 
                 <p>
                     Aggregate demand is the total quantity of goods and services consumers are willing and able to buy at any given 
@@ -208,12 +181,12 @@ from actually achieving those targets. However, it will be assumed in this essay
                       <dd> - Government spending </dd>
                       <dd> - The difference between exports and imports</dd>
                     </dl>
-                <br>
+                
                     Therefore, AD = C + I + G + (X - M). The question can be broken down further into questions asking how environmental
                 regulation affects each component. 
                 </p>
             
-            <br>
+         
             
             <p>
                 Firstly, how would consumption be affected by environmental regulation? If governments introduce regulations then workers in
@@ -233,7 +206,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 power will fall, as will be discussed later.
             </p>
             
-            <br>
+       
             
             <p>
                 The next component to discuss is investment. Investments are a tricky thing, because while money invested into the companies providing energy 
@@ -245,7 +218,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 even if it’s very slightly. 
             </p>
             
-            <br>
+            
             
             <p>
                 Government expenditure would rise as they would be paying out more in welfare support for those forced into unemployment. However, we have already
@@ -254,8 +227,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 still rise. This is because to replace non-renewable energy resources new infrastructure will be needed, and this will be funded by the government 
                 either directly or via subsidies/tax relief provided to renewable energy companies. Government expenditure rises and so aggregate demand rises. 
             </p>
-            
-            <br>
+          
             
             <p>
                 The last component, exports minus imports, falls as imports rise. This is because to fill the energy gap created by the removal of non-renewable 
@@ -264,7 +236,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 part of aggregate demand falls overall, leading to a reduction in aggregate demand.
             </p>
             
-            <br>
+
             
             <p>
                 Overall, there will be a short-term reduction in aggregate demand. This means economic growth will be lower, and deflationary pressure will be exerted 
@@ -278,11 +250,11 @@ from actually achieving those targets. However, it will be assumed in this essay
 
             </p>
             
-                <br>
+                
             
             <h3>Aggregate supply and environmental regulations</h3>
             
-            <br>
+           
             
             <p>
                 Aggregate supply is the quantity of goods and services firms are willing and able to supply at any given price point at any given time. To increase this, firms’ 
@@ -291,14 +263,14 @@ from actually achieving those targets. However, it will be assumed in this essay
                 energy is more expensive”. However, we should look at real data.
             </p>
             
-            <br>
+         
             
             <p>
                 Firstly, as companies supplying energy via non-renewable resources close, they are now supplying exactly nil at any given price. This means that aggregate supply 
                 decreases. This results in lower economic growth.
             </p>
             
-            <br>
+       
             
             <p>
                 New renewable energy technology is now cheaper than even the cheapest of coal power plants<sup>[4]</sup>. This means firms’ costs will actually go down because they’ll
@@ -306,7 +278,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 much or even more profit than they were before. This means aggregate supply rises and this leads to a rise in economic growth. 
             </p>
             
-            <br>
+            
             
             <p>
                 Furthermore, as certain companies would receive subsidies or tax relief to help the environmentally friendly reforms, their costs would go down and
@@ -314,7 +286,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 and services at any given price and time than before they were created, so aggregate supply increases. 
             </p>
             
-            <br>
+         
             
             <p>
                 Overall, aggregate supply I think would rise. Firms may have a slight transitionary period, but I don’t believe it will be very long before aggregate 
@@ -322,11 +294,11 @@ from actually achieving those targets. However, it will be assumed in this essay
 
             </p>
             
-            <br>
+        
             
             <h3>Conclusion</h3>
             
-            <br>
+          
             <p>
                 In conclusion, I think that in the long term the shift to renewable energy will actually be beneficial to economic growth than staying with
                 non-renewable resources. This is because even at current prices firms would likely save money from the shift, and if aggregate supply is rising
@@ -338,7 +310,7 @@ from actually achieving those targets. However, it will be assumed in this essay
                 every extra bit of growth becomes more important. 
             </p>
             
-            <br>
+        
             
             <p>
                 This poses another question, if environmental regulations would lead to better economic growth in the future then why have countries not yet
@@ -348,107 +320,70 @@ from actually achieving those targets. However, it will be assumed in this essay
                 of ordinary citizens. 
             </p>
             
-            <br>
+         
             
             <h3>Sources:</h3>
-            <br>
+    
             
             <p>
                 
                 
-[1] - <a class="sources" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923057/Energy_Trends_June_2020.pdf">
+[1] -
                 https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/923057/Energy_Trends_June_2020.pdf
-                </a>
+                <br>
 
-<br>
-[2] - <a class="sources" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/857027/UK_Energy_in_Brief_2019.pdf">
+
+[2] - 
                 https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/857027/UK_Energy_in_Brief_2019.pdf
-                </a>
+                <br>
+                
+         
+
+[3] - 
+                https://www.forbes.com/sites/davidrvetter/2020/05/28/just-how-good-an-investment-is-renewable-energy-new-study-reveals-all/?sh=7504f9784d27
                 
                 <br>
 
-[3] - <a class="sources" href="https://www.forbes.com/sites/davidrvetter/2020/05/28/just-how-good-an-investment-is-renewable-energy-new-study-reveals-all/?sh=7504f9784d27">
-                https://www.forbes.com/sites/davidrvetter/2020/05/28/just-how-good-an-investment-is-renewable-energy-new-study-reveals-all/?sh=7504f9784d27
-                </a>
-                <br>
-
-[4] - <a class="sources" href="https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jun/IRENA_Power_Generation_Costs_2019.pdf">
+[4] - 
                 https://www.irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jun/IRENA_Power_Generation_Costs_2019.pdf
-                </a>
 <br>
 Other sources:
 <br>
-<a class="sources" href="https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69195/pb13390-economic-growth-100305.pdf"> 
-                https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69195/pb13390-economic-growth-100305.pdf</a>
+                https://assets.publishing.service.gov.uk/government/uploads/system/uploads/attachment_data/file/69195/pb13390-economic-growth-100305.pdf
 <br>
-<a class="sources" href="https://www.lse.ac.uk/granthaminstitute/news/what-is-net-zero/"> 
-                https://www.lse.ac.uk/granthaminstitute/news/what-is-net-zero/</a>
+                https://www.lse.ac.uk/granthaminstitute/news/what-is-net-zero/
 <br>
-<a class="sources" href="https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2014/11/Impacts_of_Environmental_Regulations.pdf"> 
-                https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2014/11/Impacts_of_Environmental_Regulations.pdf</a>
+                https://www.lse.ac.uk/granthaminstitute/wp-content/uploads/2014/11/Impacts_of_Environmental_Regulations.pdf
    <br>
 
-    <a class="sources" href="https://www.theccc.org.uk/uk-action-on-climate-change/reaching-net-zero-in-the-uk/">
-                https://www.theccc.org.uk/uk-action-on-climate-change/reaching-net-zero-in-the-uk/</a>
+                https://www.theccc.org.uk/uk-action-on-climate-change/reaching-net-zero-in-the-uk/
 
                 
             </p>
-            
-            
-                
 
-             </div>
-          </div>
-        </div>
-        
+      </div>
+    </div>
 
+    <script type="text/javascript">
+      function close() {
+        document.getElementById("sidebar").style.marginLeft = "-70vw";
+      }
 
+      function openNav() {
+        document.getElementById("sidebar").style.marginLeft = "0";
+      }
+      function checknav() {
+        setTimeout(checkNav(), 1000);
+      }
 
-        <div class="spacer">
-        </div>
-        <div class="spacer">
-        </div>
-
-        <footer id="projects" style=" width: 100% !important; left:0 !important; right: 0; padding-left: 5rem; bottom: 0; padding-bottom: 3rem;">
-
-            <p id='footerText'> Follow my twitter for updates when I post </p>
-
-        </footer>
-
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        
-         <script>
-             
-                 $(document).ready(function() {
-                    var $window = $(window);
-                    var $menuToggler = $('#menuToggler');
-                    var $menuItems = $('.menuItems');
-                    var $logo = $('#logo');
-                     
-                    function checkWidth() {
-                        var windowsize = $window.width();
-                        if (windowsize < 480) {
-                            $menuToggler.css("display", "inline");
-                            $menuItems.css("display", "none");
-                            $logo.css("max-width", "100rem");
-                            $logo.css("width", "10rem");
-                            
-                        }
-                    }
-                    checkWidth();
-                    $(window).resize(checkWidth);
-                     document.getElementById("menuToggler").onclick = function () {
-                        location.href = "https://gauravbhalla.co.uk/menu.html";
-                    };
-                });
-        </script>
-        
-        <script>
-            ScrollReveal({ delay: 500, duration: 1200 });
-            ScrollReveal().reveal('.project');
-            ScrollReveal().reveal('.text');
-        </script>
-
-    </body>
+      function checkNav() {
+        if (window.innerWidth > 1200) {
+          openNav();
+        } else {
+          close();
+        }
+      }
+    </script>
+  </body>
 </html>
+
