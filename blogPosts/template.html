@@ -185,15 +185,19 @@
 
       <script>
         function close() {
-          document.getElementById("sidebar").style.display = "none";
-          console.log('closed');
+          document.getElementById("sidebar").setAttribute("style", "display: none;");
         }
 
         function openNav() {
-          document.getElementById("sidebar").style.display = "block";
+          document.getElementById("sidebar").setAttribute("style", "display: block;");
           
         }
         function checknav() {
+          setTimeout(checkNav(), 1000);
+          
+        }
+        
+        function checkNav() {
           if (screen.width > 1200) {
             openNav();
             console.log('opened');
