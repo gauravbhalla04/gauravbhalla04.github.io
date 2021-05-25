@@ -113,6 +113,7 @@ a {
   top: 0;
   background-color: #CED9B9;
     transition: 0.5s;
+    margin-left: -70vw;
 }
   #container {
   padding-left: 0;
