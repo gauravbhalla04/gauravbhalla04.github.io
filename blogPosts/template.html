@@ -182,22 +182,22 @@
       </div>
 
       <script>
-        function open() {
-          var i;
+        function open(inc) {
           var width;
-          i = 0;
-          while (i < 71) {
-            width = i.toString() + "vw";
-            document.getElementById("sidebar").style.width = width;
-            document.getElementById("container").style.marginLeft = width;
-
-            i += 1;
-          }
+          width = inc.toString() + "vw";
+          document.getElementById("sidebar").style.width = width;
+          document.getElementById("container").style.marginLeft = width;
         }
 
         function openNav() {
+          var i;
+          i = 0;
+          while (i < 71) {
+            setTimteout(open(i), 10);
+            i += 1;
+          }
           document.getElementById("sidebar").style.visibility = "visible";
-          setInterval(open, 10);
+          
         }
       </script>
     </body>
