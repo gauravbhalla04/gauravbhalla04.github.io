@@ -187,10 +187,12 @@
         function close() {
           document.getElementById("sidebar").style.display = "none !important";
           console.log('closed');
+          event.stopPropagation();
         }
 
         function openNav() {
           document.getElementById("sidebar").style.display = "block";
+          event.stopPropagation();
           
         }
         function checknav() {
