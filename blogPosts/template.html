@@ -18,7 +18,7 @@
 
     <body>
       
-      <!--
+      
       <div id="sidebar" class="animate-left">
         <div class="nav">
           <a class="navs" id="close"><p onclick=close() id="close" class="navLinks">Close &times;</p></a>
@@ -32,66 +32,18 @@
           <a class="navs" href="#"><p class="navLinks">Twitter</p></a>
         </div>
       </div>
--->
-      <!-- Sidebar start -->
-        <div class="sidebar">
-            <div class="sidebar-menu">
-                <div class="sidebar-content">
-                    <input type="text" class="form-control" placeholder="Search">
-                    <div class="mt-10 font-size-12">
-                        Press <kbd>/</kbd> to focus
-                    </div>
-                </div>
-                <h5 class="sidebar-title">Getting started</h5>
-                <div class="sidebar-divider"></div>
-                <a href="#" class="sidebar-link sidebar-link-with-icon active">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-code" aria-hidden="true"></i>
-                    </span>
-                    Installation
-                </a>
-                <a href="#" class="sidebar-link sidebar-link-with-icon">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-terminal" aria-hidden="true"></i>
-                    </span>
-                    CLI commands
-                </a>
-                <br />
-                <h5 class="sidebar-title">Components</h5>
-                <div class="sidebar-divider"></div>
-                <a href="#" class="sidebar-link sidebar-link-with-icon">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-folder-open-o" aria-hidden="true"></i>
-                    </span>
-                    File explorer
-                </a>
-                <a href="#" class="sidebar-link sidebar-link-with-icon">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-table" aria-hidden="true"></i>
-                    </span>
-                    Spreadsheet
-                </a>
-                <a href="#" class="sidebar-link sidebar-link-with-icon">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-map-o" aria-hidden="true"></i>
-                    </span>
-                    Map
-                </a>
-                <a href="#" class="sidebar-link sidebar-link-with-icon">
-                    <span class="sidebar-icon">
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
-                    </span>
-                    Messenger
-                </a>
-            </div>
-        </div>
-        <!-- Sidebar end -->
       
       
       <div id="container">
         <div style="background-color: #598ea6; padding: 1rem">
           <p class="title">
             International organisations
+            <span
+              class="menu"
+              onclick=openNav()
+              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+              >☰</span
+            >
             
           </p>
         </div>
@@ -236,13 +188,8 @@
           <br />
         </div>
       </div>
-<!--
-<span
-              class="menu"
-              onclick=openNav()
-              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
-              >☰</span
-            >
+
+
 
       <script>
         function close() {
@@ -270,7 +217,7 @@
 
         
       </script>
-      -->
+    
 <!-- Halfmoon JS -->
     <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
     <script type="text/javascript">
