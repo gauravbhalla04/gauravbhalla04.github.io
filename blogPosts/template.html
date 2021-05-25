@@ -12,9 +12,13 @@
         rel="stylesheet"
       />
       <link rel="stylesheet" href="template.css" />
+      <link href="path/to/halfmoon-variables.min.css" rel="stylesheet" />
+
     </head>
 
-    <body onresize=checknav()>
+    <body>
+      
+      <!--
       <div id="sidebar" class="animate-left">
         <div class="nav">
           <a class="navs" id="close"><p onclick=close() id="close" class="navLinks">Close &times;</p></a>
@@ -28,17 +32,35 @@
           <a class="navs" href="#"><p class="navLinks">Twitter</p></a>
         </div>
       </div>
-
+-->
+      <div
+    class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" 
+    data-sidebar-type="overlayed-sm-and-down">
+    <!-- Sidebar overlay -->
+    <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
+    
+    <!-- Navbar -->
+    <nav class="navbar">
+      ...
+    </nav>
+    <!-- Overlayed (only on small screens and down) sidebar -->
+    <div class="sidebar">
+      ...
+    </div>
+    <!-- Content wrapper -->
+    <div class="content-wrapper">
+      ...
+    </div>
+    <!-- Navbar fixed bottom -->
+    <nav class="navbar navbar-fixed-bottom">
+      ...
+    </nav>
+  </div>
       <div id="container">
         <div style="background-color: #598ea6; padding: 1rem">
           <p class="title">
             International organisations
-            <span
-              class="menu"
-              onclick=openNav()
-              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
-              >☰</span
-            >
+            
           </p>
         </div>
 
@@ -182,6 +204,13 @@
           <br />
         </div>
       </div>
+<!--
+<span
+              class="menu"
+              onclick=openNav()
+              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+              >☰</span
+            >
 
       <script>
         function close() {
@@ -207,9 +236,11 @@
           }
         }
 
-
         
       </script>
+      -->
+      <script src="path/to/halfmoon.min.js"></script>
+
     </body>
   </html>
 </html>
