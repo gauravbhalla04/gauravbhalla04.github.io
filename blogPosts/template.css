@@ -94,7 +94,7 @@ a {
 }
 .animate-left {
   position:relative;
-  animation:animateleft 0.4s}@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+  animation:animateleft 0.4s}@keyframes animateleft{from{width:0; opacity:0} to{width:70vw;opacity:1}}
 
   
   .menu {
