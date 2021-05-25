@@ -12,7 +12,8 @@
         rel="stylesheet"
       />
       <link rel="stylesheet" href="template.css" />
-<link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+
     </head>
 
     <body>
@@ -32,29 +33,61 @@
         </div>
       </div>
 -->
-      <div
-    class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" 
-    data-sidebar-type="overlayed-sm-and-down">
-    <!-- Sidebar overlay -->
-    <div class="sidebar-overlay" onclick="halfmoon.toggleSidebar()"></div>
-    
-    <!-- Navbar -->
-    <nav class="navbar">
-      ...
-    </nav>
-    <!-- Overlayed (only on small screens and down) sidebar -->
-    <div class="sidebar">
-      ...
-    </div>
-    <!-- Content wrapper -->
-    <div class="content-wrapper">
-      ...
-    </div>
-    <!-- Navbar fixed bottom -->
-    <nav class="navbar navbar-fixed-bottom">
-      ...
-    </nav>
-  </div>
+      <!-- Sidebar start -->
+        <div class="sidebar">
+            <div class="sidebar-menu">
+                <div class="sidebar-content">
+                    <input type="text" class="form-control" placeholder="Search">
+                    <div class="mt-10 font-size-12">
+                        Press <kbd>/</kbd> to focus
+                    </div>
+                </div>
+                <h5 class="sidebar-title">Getting started</h5>
+                <div class="sidebar-divider"></div>
+                <a href="#" class="sidebar-link sidebar-link-with-icon active">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-code" aria-hidden="true"></i>
+                    </span>
+                    Installation
+                </a>
+                <a href="#" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-terminal" aria-hidden="true"></i>
+                    </span>
+                    CLI commands
+                </a>
+                <br />
+                <h5 class="sidebar-title">Components</h5>
+                <div class="sidebar-divider"></div>
+                <a href="#" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-folder-open-o" aria-hidden="true"></i>
+                    </span>
+                    File explorer
+                </a>
+                <a href="#" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-table" aria-hidden="true"></i>
+                    </span>
+                    Spreadsheet
+                </a>
+                <a href="#" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-map-o" aria-hidden="true"></i>
+                    </span>
+                    Map
+                </a>
+                <a href="#" class="sidebar-link sidebar-link-with-icon">
+                    <span class="sidebar-icon">
+                        <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                    </span>
+                    Messenger
+                </a>
+            </div>
+        </div>
+        <!-- Sidebar end -->
+      
+      
       <div id="container">
         <div style="background-color: #598ea6; padding: 1rem">
           <p class="title">
@@ -238,7 +271,29 @@
         
       </script>
       -->
-<script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
-    </body>
+<!-- Halfmoon JS -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+    <script type="text/javascript">
+        // Toasts a default alert
+        function toastAlert() {
+            var alertContent = "This is a default alert with <a href='#' class='alert-link'>a link</a> being toasted.";
+            // Built-in function
+            halfmoon.initStickyAlert({
+                content: alertContent,
+                title: "Toast!"
+            })
+        }
+
+        // Toggles the parent's dark mode (if this page is loaded in an iFrame) 
+        function parentToggleDarkmode() {
+            window.parent.toggleDarkModeFromChild();
+        }
+
+        // Override the dark mode toggle function to call the parent's one
+        // Again, this is for the case where the page is loaded in an iFrame
+        if (window !== window.parent) {
+            halfmoon.toggleDarkMode = parentToggleDarkmode;
+        }
+    </script>    </body>
   </html>
 </html>
