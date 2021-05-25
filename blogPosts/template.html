@@ -22,7 +22,7 @@
         <div class="nav">
           <p class="navs" id="close"><span
               class="navs"
-              onclick=close()
+              onclick="document.getElementById('sidebar').style.marginLeft = '-70vw';"
               >&times;</span
             ></p>
 
@@ -197,9 +197,6 @@
       <script type="text/javascript">
         function close() {
           document.getElementById("sidebar").style.marginLeft = "-70vw";
-          document.getElementById("sidebar").style.backgroundColor = "#7812de";
-
-          console.log("closed");
         }
 
         function openNav() {
