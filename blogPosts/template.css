@@ -8,6 +8,10 @@ body {
   visibility: hidden;
 }
 
+#close {
+  visibility: hidden;
+}
+
 .nav {
   position: absolute;
   top: 38%;
@@ -143,6 +147,10 @@ a {
     margin-left: 1vw;
 
 }
+  
+  #close {
+    visibility: visible;
+  }
   .blogPic {
     width: 100vw !important;
     right: 0%;
