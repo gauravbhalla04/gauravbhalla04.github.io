@@ -17,11 +17,11 @@
 <body>
 	<div class="sidebar">
 		<div class="nav">
-			<a href="#"><p class="navLinks">Home</p></a>
+			<a class="navs" href="#"><p class="navLinks">Home</p></a>
 			<br>
-			<a href="#"><p style="color: #2D2929" class="navLinks">Blog</p></a>
+			<a class="navs" href="#"><p style="color: #2D2929" class="navLinks">Blog</p></a>
 			<br>
-			<a href="#"><p class="navLinks">Twitter</p></a>
+			<a class="navs" href="#"><p class="navLinks">Twitter</p></a>
 		</div>
 	     </div>
 	
@@ -92,6 +92,9 @@ This is caused by each state's interests, countries such as America spend are me
 		function openNav() {
 		  document.getElementByClassName("sidebar").style.width = "70vw";
 		  document.getElementByClassName("container").style.marginLeft = "70vw";
+		  document.getElementByClassName("navLinks").style.marginLeft = "1vw";
+		  document.getElementByClassName("navs").style.marginLeft = "1vw";
+
 		}
 		
 	</script>
