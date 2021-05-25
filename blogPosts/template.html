@@ -185,14 +185,12 @@
 
       <script>
         function close() {
-          document.getElementById("sidebar").style.display = "none !important";
+          document.getElementById("sidebar").style.display = "none";
           console.log('closed');
-          event.stopPropagation();
         }
 
         function openNav() {
           document.getElementById("sidebar").style.display = "block";
-          event.stopPropagation();
           
         }
         function checknav() {
