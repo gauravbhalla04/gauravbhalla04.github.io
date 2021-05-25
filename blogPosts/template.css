@@ -18,7 +18,10 @@ body {
   left: 50%;
   margin: -25px 0 0 -25px;
 }
-
+.sidebar .hidden-search-terms {
+    position: absolute;
+    visibility: hidden;
+}
 #sidebar {
   width: 14.766vw;
   position: fixed;
