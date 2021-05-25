@@ -17,7 +17,7 @@
     <body onresize="checknav()">
       <div id="sidebar" class="animate-left">
         <div class="nav">
-          <a class="navs" id="close" onclick="close()"><p onclick="close()" id="close" class="navLinks">Close &times;</p></a>
+          <a class="navs" id="close"><p onclick="close()" id="close" class="navLinks">Close &times;</p></a>
 
           <a class="navs" href="#"><p class="navLinks">Home</p></a>
           <br />
@@ -186,7 +186,7 @@
       <script>
         function close() {
           document.getElementById("sidebar").style.display = "none";
-
+          console.log('closed');
         }
 
         function openNav() {
@@ -196,6 +196,10 @@
         function checknav() {
           if (screen.width > 1200) {
             openNav();
+            console.log('opened');
+          } else {
+            close();
+            console.log('closed');
           }
         }
 
