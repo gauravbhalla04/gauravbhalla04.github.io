@@ -89,20 +89,26 @@ This is caused by each state's interests, countries such as America spend are me
 	
 	<script>
 		
-				
-function openNav() {
+function open() {
   var i;
   var width;
   i = 0;
   while (i < 71) {
     width = i.toString() + "vw";
     document.getElementById("sidebar").style.width = width;
+    document.getElementById("container").style.marginLeft = width;
+
     i += 1;
   }
+}
+		
+function openNav() {
   document.getElementById("sidebar").style.visibility = "visible";
-  document.getElementById("container").style.marginLeft = "70vw";
+  setInterval(open, 10);
 
 }
+		
+
 		
 	</script>
 	
