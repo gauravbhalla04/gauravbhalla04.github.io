@@ -106,7 +106,7 @@ a {
   }
   #sidebar {
   width: 70vw;
-    left: -70vw;
+  display: none;
   bottom: 0;
   top: 0;
   background-color: #CED9B9;
