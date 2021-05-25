@@ -16,7 +16,7 @@
 
     </head>
 
-    <body>
+    <body onresize="checknav()">
       
       
       <div id="sidebar" class="animate-left">
@@ -206,7 +206,7 @@
         }
         
         function checkNav() {
-          if (screen.width > 1200) {
+          if (window.innerWidth > 1200) {
             openNav();
             console.log('opened');
           } else {
