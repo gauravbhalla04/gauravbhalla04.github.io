@@ -1,315 +1,231 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
+  <!DOCTYPE html>
+  <html>
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152787238-3"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-
-          gtag('config', 'UA-152787238-3');
-        </script>
-
-        <meta charset="utf-8">
-        <meta name="title" content="Gaurav Bhalla's projects">
-        <meta name="description" content="Hi, I'm Gaurav Bhalla from AGSB and this is my personal website. I blog about MUN, write book reviews and more!">
-        <meta name="keywords" content="gaurav, bhalla, Gaurav Bhalla, books, book reviews, Agsb, MUN, model United Nations, writing, write, blog">
-        <meta name="robots" content="index, follow">
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-        <meta name="language" content="English">
-        <meta name="author" content="Gaurav Bhalla">
-        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
-
-
-        <title> Gaurav Bhalla's projects </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.js"></script>
-
-        <link href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel="stylesheet">
-
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-
-
-
-
-        <link rel="stylesheet" href="main.css">
-
-    <style>
-            
-            #menuToggler {
-                
-                display: none;
-                color: white;
-                float: right;
-                font-size: 1.5rem;
-                padding-right: 1rem;
-                padding-top: 0rem;
-                margin-top: -1.75rem;
-            }
-            
-            
-        </style>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta charset="UTF-8" />
+      <title>The Economic Post</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="template.css" />
 
     </head>
 
-    <body>
+    <body onresize=checknav()>
+      
+      
+      <div id="sidebar">
+        <div class="nav">
+          <p class="navs" id="close"><span
+              class="navs"
+                                           style="font-size: 7vw";
+              onclick="document.getElementById('sidebar').style.marginLeft = '-70vw';"
+              >&times;</span
+            ></p>
 
-
-
-        <div id="navbar">
-
-
-            <div>
-                <a href="index.html"><img id="logo" src="images/logo.png" alt="my awesome logo"></a>
-
-            </div>
-
-            <div class="menuItems">
-
-                <div class="menuItemsOne">
-                    <a class="inactive" href="index.html">Home</a>
-
-                </div>
-
-                <div class="menuItemsTwo">
-                    <a href="projects.html">Projects</a>
-
-                </div>
-
-                <div class="menuItemsThree">
-                    <a class="inactive" href="blog.html">Blog</a>
-
-                </div>
-                <div class="menuItemsFour">
-                    <a class="inactive" href="about.html">About</a>
-
-                </div>
-                <div id="socials">
-
-                    <div class="socialsOne">
-
-                        <a target="_top" href="mailto:gauravbhalla@gauravbhalla.co.uk"><i class="fas fa-at"></i></a>
-
-                    </div>
-
-                    <div class="socialsTwo">
-                        <a class="socials" target="_blank" href="https://twitter.com/GauravBhalla_04?s=09"><i class="fab fa-twitter" id="socials"></i></a>
-                    </div>
-
-                    <div class="socialsThree">
-                        <a class="socials" target="_blank" href="https://instagram.com/gauravbhalla04"><i class="fab fa-instagram" id="socials"></i></a>
-                    </div>
-                </div>
-
-            </div>
+          <a class="navs" href="#"><p class="navLinks">Home</p></a>
+          <br />
+          <a class="navs" href="#"
+            ><p style="color: #2D2929" class="navLinks">Blog</p></a
+          >
+          <br />
+          <a class="navs" href="#"><p class="navLinks">Twitter</p></a>
+        </div>
+      </div>
+      
+      
+      <div id="container">
+        <div style="background-color: #598ea6; padding: 1rem">
+          <p class="title">
+            Projects
+            <span
+              class="menu"
+              onclick=openNav()
+              style="margin-left: 8vw; font-size:7vw;cursor:pointer"
+              >☰</span
+            >
             
-            <i class="fas fa-bars" id="menuToggler"></i>
+          </p>
+        </div>
+
+        <div class="text">
+          <p>
+  This is a page for all my projects, it includes a brief documentation about
+  the project. I hope you find this interesting, and are able to get something
+  useful from this page.
+</p>
+
+<p>
+  As of 28/3/2020, all my projects on this website are made in JavaScript using
+  the p5js library, this is because these are the most easily shared projects
+  due to their compatibility with websites.
+  <del
+    >I'm working on a solution to display my other projects in python - the
+    other main language that I work with.</del
+  >
+</p>
+
+<p>
+  I gave up.
+</p>
+
+<h3>Snake</h3>
+
+<div class="blogPicContainer">
+  <img class="blogPic" src="https://gauravbhalla.co.uk/images/snake.png" />
+</div>
+
+<p>
+  This project was one of my first, and I envisioned it being similar to the
+  original snake that was on the old Nokia phones. The reason I chose to make a
+  snake game as one of my first projects was to allow me to practice my skills
+  in JavaScript on a problem I knew the rules and restraints to. It allowed me
+  to focus my attention to solving the problem without having to define the
+  problem. In the end, I believe it turned out better than I had imagined, with
+  smooth movement and and a dark theme to it. In terms of further development,
+  I'm currently in the process of learning how to generate Hamiltonian paths to
+  allow the snake to be controlled be the computer (in a way that is slightly
+  cheating, but who reads the fine print anyway?). I would also like to allow
+  the mobile and tablet users to control the snake using swipes on the screen,
+  rather than requiring an external keyboard.
+</p>
+
+<p>
+  The actual development process I'd like to believe was fairly painless,
+  however, that would be a lie. I can admit that I found it fairly difficult to
+  keep track of the snake's individual sections, although the rest was fairly
+  easy in comparison. I used object oriented programming to make it easy to
+  scale the program, and used variables declared at the start and defined fairly
+  early on instead of hard coding to allow me to easily make changes. For an
+  explanation as to why I chose to use object oriented programming, you can read
+  the post about object
+</p>
+<p>
+  In the development process, the first step for me was to identify the
+  different challenges I would face in making the project. I broke the problem
+  down into these key fundamentals:
+</p>
+<p>
+  - movement
+</p>
+<p>
+  - snake collision with self/walls
+</p>
+
+<p>
+  - snake collision with food
+</p>
+<p>
+  - generating positions for food and displaying the food
+</p>
+<p>
+  - keeping track of and displaying the previous snake positions
+</p>
+
+<p>
+  I then began to systematically go through the steps of solving these problems
+  in order. I began with implementing the snake movement. In this I chose to use
+  arrow keys on an external keyboard as it seemed to be the most feasible
+  option, and I later added support for the 'wasd' keys. This was fairly easy,
+  and it laid out a lot of the ground work that I would later use to solve the
+  rest of the problems.
+</p>
+<p>
+  Moving onto the second problem, I realised I could not use a snake that was
+  only one block to check for collision with self, and I had to first extend the
+  snake, this forced me to first solve the problem of keeping track of and
+  displaying the previous snake positions. I used a dynamic array (really a list
+  as it's dynamic and can hold multiple types of date but JavaScript insists
+  it's an array) to store the coordinates of the snake's sections, updating them
+  every time the snake moved to move them all along one value. I then iterated
+  over the array to make 'boxes' at the appropriate coordinates without a border
+  to give the effect of the snake being one object. I was then ready to tackle
+  the next problem.
+</p>
+<p>
+  In order check for collision, I used a builtin function that would calculate
+  the distance between two points, and when the distance was one pixel or less,
+  I would assume a collision had occurred and declare the snake dead, restarting
+  the game. I carried this on to the collision check with the food, passing a
+  set of coordinates to the function and checking if the snake's head had
+  collided with the food, representing it eating the food. This would then
+  trigger a function that generated a new set of random coordinates and display
+  the food at the new position. The game was complete, now I just needed to add
+  some colour.
+</p>
+<p>
+  In conclusion, I would say this was a fairly successful project as I not only
+  completed the project, I also was able to challenge myself and expand upon my
+  skillset.
+</p>
+
+<h3>Clock</h3>
+
+<img class="“blogPic”" src="https://gauravbhalla.co.uk/images/clock.png" />
+
+<p>
+  This project is still in the process of being documented, apologies for any
+  inconvenience caused
+</p>
+
+<h3 class="title">Ray Casting 2D</h3>
+
+<div class="blogPicContainer”">
+  <img
+    class="“blogPic”"
+    src="https://gauravbhalla.co.uk/images/raycasting2d.png"
+  />
+</div>
+<p>
+  This project is still in the process of being documented, apologies for any
+  inconvenience caused
+</p>
+
+<h3>Fractal tree</h3>
+
+<div class="blogPicContainer”">
+  <img class="“blogPic”" src="https://gauravbhalla.co.uk/images/fractal.png" />
+</div>
+<p>
+  This project is still in the process of being documented, apologies for any
+  inconvenience caused
+</p>
+<br />
 
 
         </div>
+      </div>
 
 
 
-        <section class="intro text documentation">
+      <script type="text/javascript">
+        function close() {
+          document.getElementById("sidebar").style.marginLeft = "-70vw";
+        }
 
-        <p class="title"> Projects </p>
-        <div style="padding-right: 5%; padding-left: 5%;">
-            <p>
-
-                This is a page for all my projects, it includes a brief documentation about the project.
-                I hope you find this interesting, and are able to get something useful from this page.
-
-            </p>
-
-            <p>
-
-                As of 28/3/2020, all my projects on this website are made in JavaScript using the p5js library,
-                this is because these are the most easily shared projects due to their compatibility with websites.
-                <del>I'm working on a solution to display my other projects in python - the other main language that I
-                work with.<del>
-
-            </p>
-                    
-           <p>
-                I gave up.
-           </p>
-        </div>
-
-
-    </section>
-
-    <section class="intro text" id="snake">
-        <p class="title"> Snake </p>
-
-        <img class="projectHeader" src="images/snake.png" style="width: 100vw">
-        <div style="padding-right: 5%; padding-left: 5%;">
-        <p>
-
-            This project was one of my first, and I envisioned it being similar to the original snake that was on
-            the old Nokia phones. The reason I chose to make a snake game as one of my first projects was to allow me to
-            practice my skills in JavaScript on a problem I knew the rules and restraints to. It allowed me to focus
-            my attention to solving the problem without having to define the problem. In the end, I believe it turned
-            out better than I had imagined, with smooth movement and and a dark theme to it. In terms of further
-            development, I'm currently in the process of learning how to generate Hamiltonian paths to allow the
-            snake to be controlled be the computer (in a way that is slightly cheating, but who reads the fine print anyway?).
-            I would also like to allow the mobile and tablet users to control the snake using swipes on the screen, rather
-            than requiring an external keyboard.
-
-        </p>
-
-        <p>
-
-            The actual development process I'd like to believe was fairly painless, however, that would be a lie. I can admit
-            that I found it fairly difficult to keep track of the snake's individual sections, although the rest was fairly
-            easy in comparison. I used object oriented programming to make it easy to scale the program, and used variables
-            declared at the start and defined fairly early on instead of hard coding to allow me to easily make changes.
-            For an explanation as to why I chose to use object oriented programming, you can read the post about object
-
-        </p>
-        <p>
-
-            In the development process, the first step for me was to identify the different challenges I would face in
-            making the project. I broke the problem down into these key fundamentals:
-        </p>
-        <p>
-            - movement
-        </p>
-        <p>
-            - snake collision with self/walls
-        </p>
-
-        <p>
-            - snake collision with food
-
-        </p>
-        <p>
-            - generating positions for food and displaying the food
-        </p>
-        <p>
-            - keeping track of and displaying the previous snake positions
-
-        </p>
-
-        <p>
-
-
-            I then began to systematically go through the steps of solving these problems in order. I began with implementing
-            the snake movement. In this I chose to use arrow keys on an external keyboard as it seemed to be the most feasible
-            option, and I later added support for the 'wasd' keys. This was fairly easy, and it laid out a lot of the ground work
-            that I would later use to solve the rest of the problems.
-
-        </p>
-        <p>
-
-            Moving onto the second problem, I realised I could not use a snake that was only one block to check for collision with self,
-            and I had to first extend the snake, this forced me to first solve the problem of keeping track of and displaying the
-            previous snake positions. I used a dynamic array (really a list as it's dynamic and can hold multiple types of date but JavaScript
-            insists it's an array) to store the coordinates of the snake's sections, updating them every time the snake moved to move
-            them all along one value. I then iterated over the array to make 'boxes' at the appropriate coordinates without a
-            border to give the effect of the snake being one object. I was then ready to tackle the next problem.
-        </p>
-        <p>
-            In order check for collision, I used a builtin function that would calculate the distance between two points, and when
-            the distance was one pixel or less, I would assume a collision had occurred and declare the snake dead, restarting
-            the game. I carried this on to the collision check with the food, passing a set of coordinates to the function and checking
-            if the snake's head had collided with the food, representing it eating the food. This would then trigger a function that
-            generated a new set of random coordinates and display the food at the new position. The game was complete, now I just
-            needed to add some colour.
-
-        </p>
-        <p>
-
-            In conclusion, I would say this was a fairly successful project as I not only completed the project, I also was able to
-            challenge myself and expand upon my skillset.
-
-        </p>
-    </div>
-    </section>
-
-    <section class="intro text" id="clock">
-        <p class="title"> Clock </p>
-
-        <img class="projectHeader" src="images/clock.png" style="width: 100vw">
-        <div style="padding-right: 5%; padding-left: 5%;">
-
-        <p> This project is still in the process of being documented, apologies for any inconvenience caused </p>
-
-        </div>
+        function openNav() {
+          document.getElementById("sidebar").style.marginLeft = "0";
+          
+        }
+        function checknav() {
+          setTimeout(checkNav(), 1000);
+          
+        }
         
-    </section>
+        function checkNav() {
+          if (window.innerWidth > 1200) {
+            openNav();
+          } else {
+            close();
+          }
+        }
 
-    <section class="intro text" id="raycasting2d">
-        <p class="title"> Ray Casting 2D </p>
-
-        <img class="projectHeader" src="images/raycasting2d.png" style="width: 100vw">
-        <div style="padding-right: 5%; padding-left: 5%;">
-
-        <p> This project is still in the process of being documented, apologies for any inconvenience caused </p>
-        </div>
-    </section>
-
-    <section class="intro text" id="fractal">
-        <p class="title"> Fractal tree </p>
-
-        <img class="projectHeader" src="images/fractal.png" style="width: 100vw">
-        <div style="padding-right: 5%; padding-left: 5%;">
-
-        <p> This project is still in the process of being documented, apologies for any inconvenience caused </p>
-        </div>
-    </section>
-
-    <div class="spacer" style="height: 5rem"></div>
-
-
-
-    <footer id="projects" style="padding: 1rem; bottom: 0 !important;">
-
-        <p id='footerText'> You can find the source code for all of these projects on my github </p>
-
-    </footer>
-        <script src="https://unpkg.com/scrollreveal"></script>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         
-         <script>
-             
-                 $(document).ready(function() {
-                    var $window = $(window);
-                    var $menuToggler = $('#menuToggler');
-                    var $menuItems = $('.menuItems');
-                    var $logo = $('#logo');
-                     
-                    function checkWidth() {
-                        var windowsize = $window.width();
-                        if (windowsize < 480) {
-                            $menuToggler.css("display", "inline");
-                            $menuItems.css("display", "none");
-                            $logo.css("max-width", "100rem");
-                            $logo.css("width", "10rem");
-                            
-                        }
-                    }
-                    checkWidth();
-                    $(window).resize(checkWidth);
-                     document.getElementById("menuToggler").onclick = function () {
-                        location.href = "https://gauravbhalla.co.uk/menu.html";
-                    };
-                });
-        </script>
-            
-        <script>
-            ScrollReveal({ reset: false, delay: 500, duration: 500 });
-            ScrollReveal().reveal('.project');
-            ScrollReveal().reveal('.text');
-        </script>
-    </body>
-
-
+      </script>
+     </body>
+  </html>
 </html>
